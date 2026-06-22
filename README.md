@@ -65,7 +65,7 @@ python "../extracted_data/[PUB] India_runs_data_and_ai_challenge/India_runs_data
 streamlit run app.py
 ```
 
-Open http://localhost:8501 in your browser. The dashboard has 5 tabs:
+Open http://localhost:8500 in your browser. The dashboard has 5 tabs:
 
 | Tab | What it shows |
 |---|---|
