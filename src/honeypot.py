@@ -7,7 +7,10 @@ Detection rules (validated against sample_submission.csv: 0 false positives):
   R3 - Headline years-of-experience differs from profile.years_of_experience by > 2
   R4 - Summary years-of-experience differs from profile.years_of_experience by > 2
   R5 - Profile years_of_experience > 3 but total career history < 1 year
+  R6 - Declared years_of_experience exceeds career span (from earliest job) by > 3 years
+  R7 - Sum of all job duration_months exceeds declared years_of_experience * 12 by > 48 months
 """
+
 
 import re
 from datetime import datetime
@@ -94,4 +97,25 @@ def is_honeypot(candidate: Dict[str, Any]) -> Tuple[bool, List[str]]:
             f"R5:history_gap declared={years_exp}yrs history={total_months/12:.1f}yrs"
         )
 
+    # R6 - declared YoE exceeds career span from earliest job by > 3 years
+    starts = [_parse_date(j.get("start_date")) for j in history]
+    starts = [s for s in starts if s is not None]
+    if starts and years_exp > 0:
+        earliest = min(starts)
+        career_span_yrs = (_CURRENT_DATE - earliest).days / 365.25
+        if years_exp > career_span_yrs + 3.0:
+            reasons.append(
+                f"R6:yoe_exceeds_career_span "
+                f"declared={years_exp}yrs earliest_job={earliest.date()} "
+                f"span={career_span_yrs:.1f}yrs"
+            )
+
+    # R7 - total history months >> declared YoE (impossible without time travel)
+    if years_exp > 0 and total_months > (years_exp * 12 + 48):
+        reasons.append(
+            f"R7:history_exceeds_yoe "
+            f"history={total_months/12:.1f}yrs declared={years_exp}yrs"
+        )
+
     return bool(reasons), reasons
+
