@@ -78,6 +78,14 @@ Open http://localhost:8501 in your browser. The dashboard has 5 tabs:
 ---
 
 ## Dashboard Screenshots & Visuals
+<img width="1918" height="910" alt="image" src="https://github.com/user-attachments/assets/27ee1b9f-5613-4f3f-bef5-be0477bff8d7" />
+<img width="1917" height="912" alt="image" src="https://github.com/user-attachments/assets/fc5f0313-264c-45ae-8444-c233cfaaea24" />
+<img width="1907" height="911" alt="image" src="https://github.com/user-attachments/assets/625b6214-d9e5-4eb1-a722-7385f9a68c7c" />
+<img width="1890" height="908" alt="image" src="https://github.com/user-attachments/assets/4231c4e7-dea2-46c8-83a4-16e5a29781e0" />
+<img width="1913" height="910" alt="image" src="https://github.com/user-attachments/assets/3722c25b-fd95-4f2e-87d1-4010377cf6a3" />
+<img width="1552" height="822" alt="image" src="https://github.com/user-attachments/assets/d64eb2ce-ff2a-44ae-943f-3de4913286c8" />
+<img width="1595" height="902" alt="image" src="https://github.com/user-attachments/assets/00dd031b-4aa2-457b-bdea-c2ef7a02bde9" />
+<img width="1598" height="912" alt="image" src="https://github.com/user-attachments/assets/823c14af-d70d-415f-b5e1-c1ef23192143" />
 
 
 ---
