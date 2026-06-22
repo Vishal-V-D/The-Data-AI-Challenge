@@ -1,12 +1,14 @@
 """
-precompute_llm.py - Offline LLM evaluation using Groq API (free tier, ~30 RPM).
+precompute_llm.py - Offline LLM evaluation using Groq API or local Ollama.
 
 Run ONCE before submitting. Writes precomputed_llm_data.json.
 Auto-resumes from existing output file if interrupted.
 
-Usage:
-    cd solution
-    python src/precompute_llm.py --top-n 1500 --output data/precomputed_llm_data.json
+Usage (Groq - cloud, rate-limited):
+    python src/precompute_llm.py --backend groq --top-n 1000
+
+Usage (Ollama - local, no rate limit, much faster):
+    python src/precompute_llm.py --backend ollama --model qwen2.5-coder:7b --top-n 1000
 """
 
 from __future__ import annotations
@@ -163,6 +165,20 @@ def build_prompt(cand: Dict[str, Any]) -> str:
     )
 
 
+def _parse_llm_response(text: str) -> Dict[str, Any]:
+    """Parse LLM response text into a JSON dict, stripping markdown fences."""
+    text = text.strip()
+    if text.startswith("```"):
+        lines = text.split("\n")[1:]
+        text = "\n".join(lines).rstrip("`").strip()
+    # Try to extract JSON from text that might have extra content
+    start = text.find("{")
+    end = text.rfind("}")
+    if start != -1 and end != -1:
+        text = text[start:end+1]
+    return json.loads(text)
+
+
 def call_groq(client, prompt: str, model: str, retries: int = 10) -> Dict[str, Any]:
     for attempt in range(retries):
         try:
@@ -173,11 +189,7 @@ def call_groq(client, prompt: str, model: str, retries: int = 10) -> Dict[str, A
                 temperature=0.2,
             )
             text = resp.choices[0].message.content.strip()
-            # Strip markdown fences if present
-            if text.startswith("```"):
-                lines = text.split("\n")[1:]
-                text  = "\n".join(lines).rstrip("`").strip()
-            return json.loads(text)
+            return _parse_llm_response(text)
         except json.JSONDecodeError as e:
             print(f"    JSON parse error (attempt {attempt+1}): {e}")
             time.sleep(2)
@@ -193,29 +205,94 @@ def call_groq(client, prompt: str, model: str, retries: int = 10) -> Dict[str, A
     return {"llm_score": 0.5, "reasoning": "LLM evaluation unavailable for this candidate."}
 
 
+def call_ollama(prompt: str, model: str, base_url: str = "http://localhost:11434",
+               retries: int = 3) -> Dict[str, Any]:
+    """Call local Ollama instance via its REST API. No rate limits."""
+    import urllib.request
+    import urllib.error
+
+    payload = json.dumps({
+        "model": model,
+        "prompt": prompt,
+        "stream": False,
+        "options": {"temperature": 0.2, "num_predict": 400},
+    }).encode("utf-8")
+
+    for attempt in range(retries):
+        try:
+            req = urllib.request.Request(
+                f"{base_url}/api/generate",
+                data=payload,
+                headers={"Content-Type": "application/json"},
+            )
+            with urllib.request.urlopen(req, timeout=120) as resp:
+                body = json.loads(resp.read().decode("utf-8"))
+            text = body.get("response", "").strip()
+            return _parse_llm_response(text)
+        except json.JSONDecodeError as e:
+            print(f"    JSON parse error (attempt {attempt+1}): {e}")
+            time.sleep(1)
+        except urllib.error.URLError as e:
+            print(f"    Ollama connection error (attempt {attempt+1}): {e}")
+            time.sleep(3)
+        except Exception as e:
+            print(f"    Ollama error (attempt {attempt+1}): {str(e)[:150]}")
+            time.sleep(2)
+    return {"llm_score": 0.5, "reasoning": "LLM evaluation unavailable for this candidate."}
+
+
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
-    parser = argparse.ArgumentParser(description="Precompute Groq LLM scores.")
-    parser.add_argument("--top-n",     type=int, default=1500)
+    parser = argparse.ArgumentParser(description="Precompute LLM scores (Groq or Ollama).")
+    parser.add_argument("--backend",   type=str, choices=["groq", "ollama"], default="groq",
+                        help="LLM backend: 'groq' (cloud) or 'ollama' (local, no rate limit)")
+    parser.add_argument("--top-n",     type=int, default=1000)
     parser.add_argument("--output",    type=str, default=str(_ROOT / "data" / "precomputed_llm_data.json"))
     parser.add_argument("--candidates",type=str, default=str(CANDIDATES_PATH))
-    parser.add_argument("--model",     type=str, default=GROQ_MODELS[1])
-    parser.add_argument("--sleep",     type=float, default=2.1,
-                        help="Seconds between requests (free tier: ~30 RPM ≈ 2s)")
+    parser.add_argument("--model",     type=str, default=None,
+                        help="Model name. Default: llama-3.1-8b-instant (groq) / qwen2.5-coder:7b (ollama)")
+    parser.add_argument("--sleep",     type=float, default=None,
+                        help="Seconds between requests. Default: 2.1 (groq) / 0.1 (ollama)")
+    parser.add_argument("--ollama-url",type=str, default="http://localhost:11434",
+                        help="Ollama server URL (default: http://localhost:11434)")
     args = parser.parse_args()
 
-    # -- 1. API key validation --------------------------------------------------
-    print("Validating Groq API key...")
-    api_key = load_api_key()
-    ok, msg = validate_api_key(api_key)
-    if not ok:
-        print(f"ERROR: {msg}")
-        sys.exit(1)
-    print(f"  [OK] {msg}")
+    # Resolve defaults based on backend
+    if args.model is None:
+        args.model = GROQ_MODELS[1] if args.backend == "groq" else "qwen2.5-coder:7b"
+    if args.sleep is None:
+        args.sleep = 2.1 if args.backend == "groq" else 0.1
 
-    from groq import Groq
-    client = Groq(api_key=api_key)
+    # -- 1. Backend setup -------------------------------------------------------
+    client = None
+    if args.backend == "groq":
+        print("Validating Groq API key...")
+        api_key = load_api_key()
+        ok, msg = validate_api_key(api_key)
+        if not ok:
+            print(f"ERROR: {msg}")
+            sys.exit(1)
+        print(f"  [OK] {msg}")
+        from groq import Groq
+        client = Groq(api_key=api_key)
+    else:
+        print(f"Using Ollama backend at {args.ollama_url}")
+        # Quick connectivity check
+        import urllib.request
+        try:
+            with urllib.request.urlopen(f"{args.ollama_url}/api/tags", timeout=5) as resp:
+                models = json.loads(resp.read().decode("utf-8"))
+                available = [m["name"] for m in models.get("models", [])]
+                if args.model not in available:
+                    print(f"  WARNING: Model '{args.model}' not found. Available: {available}")
+                else:
+                    print(f"  [OK] Model '{args.model}' is available.")
+        except Exception as e:
+            print(f"  WARNING: Could not reach Ollama at {args.ollama_url}: {e}")
+            print(f"  Make sure Ollama is running ('ollama serve').")
+
+    print(f"  Backend: {args.backend} | Model: {args.model} | Sleep: {args.sleep}s")
 
     # ── 2. Auto-resume ────────────────────────────────────────────────────
     output_path = Path(args.output)
@@ -256,7 +333,7 @@ def main():
     print(f"  Top {len(top_candidates)} selected for LLM evaluation.")
 
     # -- 4. LLM evaluation -------------------------------------------------
-    print(f"\nStage 2: LLM evaluation with model={args.model}...")
+    print(f"\nStage 2: LLM evaluation with {args.backend} model={args.model}...")
     results = dict(existing)
     to_eval = [(s, cid, c) for s, cid, c in top_candidates if cid not in results]
     print(f"  Need to evaluate: {len(to_eval)} candidates  (sleeping {args.sleep}s between calls)")
@@ -264,7 +341,11 @@ def main():
     for i, (_, cid, cand) in enumerate(to_eval):
         prompt = build_prompt(cand)
         print(f"  [{i+1}/{len(to_eval)}] {cid}...", end=" ", flush=True)
-        result = call_groq(client, prompt, args.model)
+
+        if args.backend == "groq":
+            result = call_groq(client, prompt, args.model)
+        else:
+            result = call_ollama(prompt, args.model, args.ollama_url)
 
         llm_score = max(0.0, min(1.0, float(result.get("llm_score", 0.5))))
         reasoning = str(result.get("reasoning", ""))[:500]
