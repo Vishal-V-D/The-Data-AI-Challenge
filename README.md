@@ -40,7 +40,7 @@ This step calls the Groq API to evaluate the top-N candidates using an LLM.
 It is **offline** — the result is saved locally and no API calls are made during final ranking.
 
 ```bash
-python src/precompute_llm.py --top-n 200 --output data/precomputed_llm_data.json
+python src/precompute_llm.py --top-n 1000 --output data/precomputed_llm_data.json
 ```
 
 The script auto-resumes if interrupted. Groq free tier supports ~30 RPM.
@@ -98,8 +98,8 @@ Open http://localhost:8501 in your browser. The dashboard has 5 tabs:
          │
          ▼
 ┌─────────────────────────┐
-│  Stage 1: Honeypot      │  53 impossible profiles filtered (0 false positives
-│  Detector (honeypot.py) │  verified against sample_submission.csv)
+│  Stage 1: Honeypot      │  66 impossible profiles filtered (7 rules,
+│  Detector (honeypot.py) │  0 false positives vs sample_submission.csv)
 └────────────┬────────────┘
              │
              ▼
@@ -110,7 +110,7 @@ Open http://localhost:8501 in your browser. The dashboard has 5 tabs:
              │
              ▼
 ┌─────────────────────────┐  (offline, run once — precompute_llm.py)
-│  Stage 3: Groq LLM Eval │  llama-3.3-70b evaluates top-1500 candidates
+│  Stage 3: Groq LLM Eval │  llama-3.1-8b-instant evaluates top-1000
 │  (precompute_llm.py)    │  → precomputed_llm_data.json
 └────────────┬────────────┘
              │
@@ -133,15 +133,19 @@ Open http://localhost:8501 in your browser. The dashboard has 5 tabs:
 
 **Anti-pattern penalties** (up to −40%): pure consulting career, CV/robotics-only without NLP, inactivity > 6 months, keyword stuffing.
 
-## Honeypot Detection (5 rules, 0 false positives)
+## Honeypot Detection (7 rules, 66 caught, 0 false positives)
 
-| Rule | Condition |
-|---|---|
-| R1 | Job `duration_months` > actual date span + 3 months |
-| R2 | ≥3 `expert`-level skills with `duration_months == 0` |
-| R3 | Headline years-of-experience differs from profile by > 2 years |
-| R4 | Summary years-of-experience differs from profile by > 2 years |
-| R5 | Profile declares > 3 yrs experience but total work history < 1 year |
+| Rule | Condition | Catches |
+|---|---|---|
+| R1 | Job `duration_months` > actual date span + 3 months | Duration inflation |
+| R2 | ≥3 `expert`-level skills with `duration_months == 0` | Fake expertise |
+| R3 | Headline years-of-experience differs from profile by > 2 years | Free-text mismatch |
+| R4 | Summary years-of-experience differs from profile by > 2 years | Free-text mismatch |
+| R5 | Profile declares > 3 yrs experience but total work history < 1 year | Ghost history |
+| R6 | Declared `years_of_experience` exceeds career span (from earliest job date) by > 3 years | Impossible timeline |
+| R7 | Sum of all job `duration_months` exceeds declared `years_of_experience × 12` by > 48 months | Time-travel history |
+
+**Validation**: All 7 rules verified against `sample_submission.csv` — **0 false positives**. The 66 flagged candidates have logically impossible profiles (e.g., 14.1 yrs declared experience but earliest job started 4.7 yrs ago).
 
 ## File Structure
 
@@ -156,7 +160,7 @@ Open http://localhost:8501 in your browser. The dashboard has 5 tabs:
 ├── .env                        # GROQ_API_KEY=gsk_xxx (not committed)
 ├── src/
 │   ├── __init__.py
-│   ├── honeypot.py             # 5-rule honeypot detector
+│   ├── honeypot.py             # 7-rule honeypot detector (66 caught, 0 FP)
 │   ├── scorer.py               # Multi-signal rule-based scorer & reasoning fallback
 │   └── precompute_llm.py       # Offline Groq evaluator (run once)
 ├── data/
@@ -169,7 +173,7 @@ Open http://localhost:8501 in your browser. The dashboard has 5 tabs:
 
 - **Why Groq instead of Gemini?** Groq's free tier provides ~30 RPM vs Gemini's 20 RPD, allowing candidates to be pre-evaluated offline rapidly in batches.
 - **Why no live API calls in rank.py?** The challenge spec bans network access during the final ranking step. LLM scores are precomputed and cached locally.
-- **Why 200 candidates for LLM eval?** The coarse rule-based scorer has high recall. Evaluating the top 200 is sufficient to obtain high-quality rankings and reasons for the final top 100 shortlist.
+- **Why 1000 candidates for LLM eval?** The coarse rule-based scorer has high recall. Evaluating the top 1000 ensures every candidate in the final top-100 shortlist has a rich, LLM-generated reasoning — not just a rule-based fallback.
 - **Why 35% LLM weight?** LLM reasoning is powerful but can be noisy on sparse profiles. 35% gives meaningful signal without over-relying on a single source.
 - **Consulting penalty**: Per-company check, not global. TCS + Flipkart gets partial credit.
 - **Sparse profiles**: Missing fields default to neutral (0), not penalised.
