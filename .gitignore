@@ -1,0 +1,13 @@
+# Local environment variables (sensitive API keys)
+.env
+.env.*
+
+# Python bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Operating system files
+.DS_Store
+Thumbs.db

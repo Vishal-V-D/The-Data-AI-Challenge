@@ -1,0 +1,68 @@
+# Redrob Hackathon — Submission Metadata
+# The fields here should match what you submit via the portal at upload time.
+
+# ============================================================================
+# Team identity
+# ============================================================================
+team_name: "Team Zoro"  # Replace with your actual registered team name
+
+primary_contact:
+  name: "Vishal V D"
+  email: "vishalvd006@gmail.com"   # Replace with your primary email
+# Replace with your phone number
+
+
+
+# ============================================================================
+# Code and reproducibility
+# ============================================================================
+github_repo: "https://github.com/YOUR_USERNAME/YOUR_REPO" # Replace with your repo URL
+sandbox_link: "https://huggingface.co/spaces/YOUR_USERNAME/redrob-ranker" # Replace with your sandbox link
+
+reproduce_command: "python rank.py --candidates ../extracted_data/[PUB] India_runs_data_and_ai_challenge/India_runs_data_and_ai_challenge/candidates.jsonl --out outputs/submission.csv"
+# Note: In reproduction sandbox, if candidates.jsonl is placed at the repo root, run:
+# python rank.py --candidates ./candidates.jsonl --out ./submission.csv
+
+# ============================================================================
+# Compute environment
+# ============================================================================
+compute:
+  platform: "Local Windows PC"
+  cpu_cores: 8
+  ram_gb: 16
+  python_version: "3.10.11"
+  os: "Windows 11"
+  uses_gpu_for_inference: false                 # Must be false
+  has_network_during_ranking: false             # Must be false
+  pre_computation_required: true                # true since we precompute LLM scores offline
+  pre_computation_time_minutes: 5               # time taken to resume / evaluate the top 200 pool
+
+# ============================================================================
+# AI tools declaration
+# ============================================================================
+ai_tools_used:
+  - "Gemini"
+  - "Cursor"
+
+ai_usage_summary: |
+  Used Gemini to develop and refine the scoring heuristics, honeypot detection rules, and design the Streamlit user interface. No candidate data was sent over the network during the final ranking process.
+
+# ============================================================================
+# Approach summary
+# ============================================================================
+methodology_summary: |
+  We implemented a high-performance multi-stage candidate ranking system. 
+  Stage 1: A honeypot filter using 5 logical checks to instantly reject impossible profiles (0 false positives).
+  Stage 2: Heuristic multi-signal scorer scoring 5 key dimensions (Career Trajectory, Technical Depth, Production Signals, Behavioral, and Location) and applying anti-pattern penalties.
+  Stage 3: Offline LLM precomputation blending (35% weight) with Stage 2 scores. 
+  Stage 4: Deterministic lexicographical tie-breaking by candidate ID to guarantee stable, valid rank orders under 60 seconds on CPU.
+
+# ============================================================================
+# Declarations
+# ============================================================================
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true

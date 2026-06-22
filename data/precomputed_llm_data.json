@@ -1,0 +1,802 @@
+{
+  "CAND_0027691": {
+    "llm_score": 0.95,
+    "reasoning": "This candidate is an excellent fit, demonstrating 6.5 years of production experience including building semantic search with sentence-transformers and FAISS at Vedantu, owning ranking layers at Meta, and strong Weaviate skills (assessment score 79), all within product companies. Their 15-day notice period and Pune location further align perfectly with the role."
+  },
+  "CAND_0018499": {
+    "llm_score": 0.98,
+    "reasoning": "This candidate is an excellent fit, possessing 7.2 years of relevant product experience at Zomato, Google, and Flipkart, including building RAG-based ranking pipelines with BGE embeddings and FAISS serving 50M+ queries/month. Their expertise in vector DBs (Weaviate, Pinecone), Learning to Rank, and a 15-day notice period align perfectly, with no significant gaps or red flags."
+  },
+  "CAND_0020877": {
+    "llm_score": 0.91,
+    "reasoning": "This candidate exhibits strong production experience in embeddings-based retrieval with sentence-transformers (BGE) and vector DBs (FAISS, Pinecone) at product companies like CRED and BYJU'S, explicitly fulfilling core requirements. Although their 60-day notice period is longer than preferred, their 5.1 years of applied ML experience and 'shipper' profile are a significant fit for a founding team."
+  },
+  "CAND_0042029": {
+    "llm_score": 0.92,
+    "reasoning": "This candidate is a very strong fit, demonstrating 6.5 years of production experience shipping RAG systems with OpenAI embeddings and Pinecone at Observe.AI, and ranking models at Flipkart, directly meeting the embeddings/vector search and 'shipper' criteria. While their 45-day notice period is longer than preferred, their strong technical background, including 'Embeddings(expert)' and 'OpenSearch(expert)' skills, and active GitHub (78.7) are highly aligned."
+  },
+  "CAND_0079387": {
+    "llm_score": 0.92,
+    "reasoning": "This candidate is an exceptionally strong technical fit, having deployed embeddings-based recommendation systems serving 10M+ users with sentence-transformers at Microsoft and implemented RAG with Pinecone at upGrad. While their Python assessment score of 58 is a minor concern, their extensive product-company background (Microsoft, upGrad, Ola, BYJU'S) and experience shipping complex ML systems align perfectly with the role's requirements for a 'shipper'."
+  },
+  "CAND_0077337": {
+    "llm_score": 0.95,
+    "reasoning": "This candidate is an excellent fit, demonstrating 7 years of product-focused experience at Paytm, Razorpay, and Glance, with direct hits on embedding-based search, vector databases (Pinecone, pgvector), hybrid retrieval, and A/B testing for ranking. While the 60-day notice period is slightly above the preferred sub-30 days, their hands-on production experience as a 'shipper' and strong skill alignment make them a top candidate."
+  },
+  "CAND_0028793": {
+    "llm_score": 0.88,
+    "reasoning": "This candidate is an outstanding technical fit with 7.2 years of product experience at Google and Amazon, showcasing direct production deployments of embeddings-based retrieval using sentence-transformers, BGE, and vector databases like FAISS and Pinecone, evidenced by 'Embeddings=89' assessment score. The primary concern is the 120-day notice period, which is significantly longer than the preferred sub-30 days."
+  },
+  "CAND_0086022": {
+    "llm_score": 0.98,
+    "reasoning": "This candidate is an excellent fit, demonstrating 5.3 years of production experience with embeddings-based retrieval (BGE, FAISS) and vector search pipelines at Uber and Sarvam AI, including A/B testing at scale (50M+ queries/month). Their 0-day notice, product-company background, and high Vector Search assessment score (93) strongly confirm they are a 'shipper' with relevant expertise."
+  },
+  "CAND_0064326": {
+    "llm_score": 0.95,
+    "reasoning": "This candidate is an excellent fit, demonstrating 7.6 years of relevant experience including deploying embeddings with Pinecone at Freshworks and expertise in Milvus/Weaviate. They have a strong product background ('shipped multiple ranking models' at Aganitha) and fit the 'shipper' profile, with the only minor gap being a 45-day notice period."
+  },
+  "CAND_0071974": {
+    "llm_score": 0.98,
+    "reasoning": "The candidate is an excellent fit, having owned end-to-end ranking pipelines with BGE-large embeddings and Pinecone at Netflix, and shipped production recommendation systems at Mad Street Den. While their 45-day notice period is slightly longer than the sub-30 days preferred, their 7.8 years of experience from top product companies like Netflix and Meta directly align with the core technical and 'shipper' requirements."
+  },
+  "CAND_0081846": {
+    "llm_score": 0.95,
+    "reasoning": "The candidate has 6.7 years of direct production experience at product companies (Razorpay, Paytm) building and shipping embeddings-based (BGE, FAISS) and hybrid search systems serving high query volumes (50M+ per month), aligning perfectly with core technical and 'shipper' requirements. The 30-day notice period is acceptable, though not sub-30 preferred."
+  },
+  "CAND_0049538": {
+    "llm_score": 0.9,
+    "reasoning": "The candidate has 5.8 years of relevant experience owning search/ranking products at Saarthi.ai, demonstrating strong production experience with learning-to-rank, vector search (Milvus, OpenSearch), and embeddings, aligning well with the 'shipper' and product-company requirements. The 30-day notice period is at the edge of the preferred sub-30 days."
+  },
+  "CAND_0094759": {
+    "llm_score": 0.7,
+    "reasoning": "This candidate presents an excellent technical fit, with 8.6 years of production ML at Meta and Apple, directly leading embedding-based search (BGE, FAISS, Qdrant) and A/B testing ranking systems, clearly demonstrating a 'shipper' profile for product companies. However, the extremely low recruiter response rate (0.11) is a significant concern for a founding team role requiring high engagement, and the identical job descriptions for two different companies are a minor resume quality issue."
+  },
+  "CAND_0091909": {
+    "llm_score": 0.97,
+    "reasoning": "The candidate has 6.9 years of direct product experience at Meta and Rephrase.ai, explicitly shipping embeddings-based recommendation systems to 10M+ users using Sentence Transformers and vector DBs like Pinecone and Qdrant; their 45-day notice period is slightly above the preferred sub-30 days."
+  },
+  "CAND_0039383": {
+    "llm_score": 0.88,
+    "reasoning": "This candidate is an excellent technical match, having directly deployed embeddings-based retrieval using sentence-transformers and FAISS at Swiggy, and shipped ranking models at Meesho and Paytm. The primary concern is the 90-day notice period, which is significantly longer than the preferred sub-30 days."
+  },
+  "CAND_0016163": {
+    "llm_score": 0.88,
+    "reasoning": "The candidate has excellent, direct production experience with embeddings (sentence-transformers, BGE) and vector search (FAISS, Weaviate) at product companies like Verloop.io and Dream11. The primary concern is their 120-day notice period, which is significantly longer than the sub-30 day preference."
+  },
+  "CAND_0006418": {
+    "llm_score": 0.92,
+    "reasoning": "The candidate has 5.7 years of relevant product experience shipping ranking models and operating ML pipelines at Verloop and Flipkart, with expert skills in Semantic Search, Embeddings, Weaviate, and Learning to Rank (assessment scores 89). While their 60-day notice period is longer than preferred, their profile strongly aligns with the 'shipper' mentality and core technical requirements, inferring production experience with embeddings and vector search."
+  },
+  "CAND_0029367": {
+    "llm_score": 0.88,
+    "reasoning": "The candidate has excellent production experience (5.7 years) with embeddings (sentence-transformers, BGE, OpenAI) and vector DBs (FAISS, Pinecone) from product companies like Rephrase.ai and CRED. However, their 90-day notice period is a significant mismatch for the preferred sub-30 days, and explicit experience with ranking evaluation frameworks (NDCG, MRR, MAP) is not highlighted."
+  },
+  "CAND_0052328": {
+    "llm_score": 0.9,
+    "reasoning": "The candidate possesses 6.5 years of production experience at Amazon, having shipped RAG-based systems using Pinecone, confirming their embeddings and vector search expertise. Their product-company background and 'Learning to Rank (expert)' skill align well with the 'shipper' requirement, though experience with specific open-source embeddings (BGE, E5) isn't explicitly detailed."
+  },
+  "CAND_0046064": {
+    "llm_score": 0.92,
+    "reasoning": "The candidate demonstrates exceptional production experience in embeddings-based retrieval and vector search, having built and owned ranking pipelines serving 50M+ queries at Verloop.io and Amazon using BGE, FAISS, and Pinecone, aligning perfectly with the 'shipper' and product-company requirements. A minor concern is their Python assessment score of 64, which is lower than ideal for an expert in a founding role, and a 30-day notice period."
+  },
+  "CAND_0018888": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0018888 has 6.5 years of experience, with production experience at Razorpay (34 months) and Vedantu (28 months), where they worked on NLP pipelines and ML feature engineering. However, their skills and experience don't perfectly match the required skills, as they have more experience with diffusion models and GANs, and less with embeddings-based retrieval and vector DB/hybrid search."
+  },
+  "CAND_0082489": {
+    "llm_score": 0.6,
+    "reasoning": "CAND_0082489 has 5.3 years of experience, with 38 months as ML Engineer at InMobi where they built recommendation-style features in production, and 25 months as AI Research Engineer at CRED where they contributed to ML feature engineering and model deployment. However, there is a gap in their production experience with embeddings and vector search, as they only have experience with Weaviate (advanced) and no specific mention of embeddings-based retrieval or vector DB/hybrid search. They also hav"
+  },
+  "CAND_0093193": {
+    "llm_score": 0.7,
+    "reasoning": "CAND_0093193 has 7.9 years of experience in production systems, with expertise in Ranking Systems, Text Encoders, and Vector Representations. They have worked at Netflix and Niramai, building systems that understand user intent and connect them to relevant matches, which aligns with the role's requirements. However, there is a gap in their experience with specific vector search technologies like Pinecone, Weaviate, or FAISS, which are mentioned in the job description."
+  },
+  "CAND_0043228": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0043228 has 6.8 years of experience with production ML experience, including embeddings-based retrieval (sentence-transformers, BGE) and vector search (FAISS) at Yellow.ai. He also has product-company experience as an Applied ML Engineer at Zoho and Vedantu, with a strong NLP background (expert) and relevant skills in Hugging Face Transformers, Haystack, and Vector Search."
+  },
+  "CAND_0006567": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0006567 has 7.9 years of experience, with production experience at Meta (26 months) and Razorpay (49 months) in search and discovery, and search and ranking. They have a strong score in Weaviate (63) and fine-tuning LLMs (89), indicating experience with vector search and embeddings. However, there is a gap in their experience with recent LLM wrapper experience, which is a disqualifier. They also have a long notice period of 60 days, which is not preferred."
+  },
+  "CAND_0058426": {
+    "llm_score": 0.35,
+    "reasoning": "CAND_0058426 has 6.5 years of experience, but lacks direct production experience with embeddings-based retrieval and vector DB/hybrid search. Although they have experience with Weaviate (score: 77), it's not explicitly mentioned as a production deployment. They also have a product-company background at Wysa, but the role is more focused on predictive modeling rather than AI engineering. Their notice period is 45 days, which is above the preferred sub-30 days. The candidate has a decent GitHub ac"
+  },
+  "CAND_0024990": {
+    "llm_score": 0.3,
+    "reasoning": "CAND_0024990 has 5.2 years of experience, but lacks real production experience with embeddings-based retrieval and vector DB/hybrid search. They have experience with NLP pipelines, but it's not specifically with embeddings or vector search. They also have a product-company background at Zoho, but their notice period is 60 days, which is longer than preferred."
+  },
+  "CAND_0007412": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0007412 has 7.4 years of experience with production experience in embeddings-based retrieval (RAG-based customer support chatbot integrated with ticketing system) and vector search (document ingestion pipeline with Pinecone). They also have experience with ranking models (trained and shipped multiple ranking models for discovery feed) and have a strong background in product-company experience (worked at Zoho, Locobuzz, Swiggy, and LinkedIn). However, there is a gap in their experience with "
+  },
+  "CAND_0095213": {
+    "llm_score": 0.2,
+    "reasoning": "CAND_0095213 has 5.1 years of experience, but lacks real production experience with embeddings-based retrieval and vector DB/hybrid search, which are key requirements for the Senior AI Engineer role. Although they have experience with Pinecone and Weaviate, their scores are not high enough to indicate strong proficiency (Pinecone=47, Weaviate=intermediate)."
+  },
+  "CAND_0043318": {
+    "llm_score": 0.3,
+    "reasoning": "CAND_0043318 has 6.2 years of experience, but lacks real production experience with embeddings-based retrieval and vector DB/hybrid search. Although they have experience with NLP pipelines and sentiment analysis, it's primarily for an internal feedback-analytics dashboard, not deployed to real users. They also have a long notice period of 120 days, which is a red flag."
+  },
+  "CAND_0044222": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0044222 has 7.7 years of experience with production experience in embeddings-based retrieval using sentence-transformers and FAISS at PolicyBazaar. He also has experience with vector search using Qdrant and Weaviate. However, there is a slight gap in his experience with evaluation frameworks for ranking, as his previous roles do not explicitly mention NDCG, MRR, MAP, or A/B testing. Nevertheless, his strong product-company background and 'shipper' mindset make him a strong candidate for the"
+  },
+  "CAND_0009837": {
+    "llm_score": 0.2,
+    "reasoning": "CAND_0009837 lacks real production experience with embeddings-based retrieval, as their experience is with XGBoost and LightGBM for ranking models. They also have a long notice period of 60 days, which is a red flag."
+  },
+  "CAND_0054546": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0054546 has 4.9 years of experience, but lacks real production experience with embeddings-based retrieval and vector DB/hybrid search. Although they have experience with Qdrant (advanced), it's not explicitly mentioned that it was deployed to real users. They also have a product-company background at Razorpay, but their notice period is 90 days, which is longer than preferred."
+  },
+  "CAND_0098846": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0098846 has 7.6 years of experience with production experience in embeddings-based retrieval (e.g., OpenAI embeddings, Pinecone) and vector DB/hybrid search (Pinecone, Qdrant). They have a 'shipper' mindset with product-company experience at upGrad, Meesho, and Swiggy, and have demonstrated strong behavioral signals with active GitHub activity and a short notice period. However, there is a slight gap in their experience with evaluation frameworks for ranking, as they only mention NDCG in th"
+  },
+  "CAND_0015528": {
+    "llm_score": 0.7,
+    "reasoning": "CAND_0015528 has 7.4 years of experience with production experience in building content recommendation systems using embeddings (sentence-transformer) and vector search (Weaviate, OpenSearch). He has also worked in product-company roles (Krutrim, Locobuzz) and has a strong GitHub activity score. However, there is a gap in his experience with vector DB/hybrid search (Pinecone, Qdrant, FAISS) and evaluation frameworks for ranking (NDCG, MRR, MAP, A/B testing)."
+  },
+  "CAND_0084819": {
+    "llm_score": 0.42,
+    "reasoning": "CAND_0084819 has 4.5 years of experience, but lacks direct production experience with embeddings-based retrieval (sentence-transformers, BGE, E5, etc.) deployed to real users. They have experience with Pinecone and OpenSearch, but not with other required technologies like BGE or E5. Their Redrob assessment scores are high, but do not compensate for the lack of direct experience with embeddings-based retrieval."
+  },
+  "CAND_0009024": {
+    "llm_score": 0.7,
+    "reasoning": "CAND_0009024 has 5.2 years of experience with production experience in building content recommendation systems at Google and Aganitha, using embeddings (sentence-transformer) and vector search (Qdrant, FAISS). However, the candidate's notice period is 30 days, which is slightly above the preferred sub-30 days. Additionally, the candidate's GitHub activity score is relatively low (32.7/100) and the last active date is recent (2026-04-09)."
+  },
+  "CAND_0061257": {
+    "llm_score": 0.8,
+    "reasoning": "Candidate CAND_0061257 has 8+ years of production experience, specifically at LinkedIn where they designed the ranking layer for the company's flagship product, and at Yellow.ai where they owned the search and discovery experience end-to-end. They have demonstrated expertise in embeddings-based retrieval (PEFT score: 70) and vector DB/hybrid search (Haystack score: 70), with a strong background in product-company experience."
+  },
+  "CAND_0075439": {
+    "llm_score": 0.7,
+    "reasoning": "CAND_0075439 has 4.3 years of experience with production experience in embeddings-based retrieval (sentence-transformers, OpenAI embeddings) and vector search (Pinecone) at Flipkart. However, the candidate's notice period is 30 days, which is slightly above the preferred sub-30 days. Additionally, the candidate's GitHub activity score is 66.3/100, indicating some level of inactivity."
+  },
+  "CAND_0033911": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0033911 has 6.9 years of experience, but lacks direct production experience with embeddings-based retrieval (sentence-transformers, BGE, E5, etc.) deployed to real users. Although they have experience with FAISS (advanced) and Sentence Transformers (advanced), it's not explicitly stated that these were deployed in production."
+  },
+  "CAND_0095619": {
+    "llm_score": 0.6,
+    "reasoning": "CAND_0095619 has 15.6 years of experience, which exceeds the required 5-9 years. They have production experience with embeddings-based retrieval (Learning to Rank) and vector DB/hybrid search (Pinecone, Weaviate), but the specific details of their experience (e.g., sentence-transformers, BGE, E5) are not mentioned. They also have a strong background in NLP and product-company experience as an NLP Engineer at Nykaa."
+  },
+  "CAND_0020991": {
+    "llm_score": 0.2,
+    "reasoning": "CAND_0020991 has 4.9 years of experience, but lacks real production experience with embeddings and vector search, specifically with technologies like sentence-transformers, BGE, E5, Pinecone, Weaviate, Qdrant, FAISS, Elasticsearch, or OpenSearch. Although they have experience with Weaviate, it's not explicitly mentioned as a production deployment."
+  },
+  "CAND_0078492": {
+    "llm_score": 0.6,
+    "reasoning": "CAND_0078492 has 5.1 years of experience with production experience in recommendation systems, specifically with Haystack and Qdrant, which are relevant to the role. However, there is a gap in their experience with embeddings-based retrieval, as they only have expertise in Haystack and not sentence-transformers, BGE, E5, etc."
+  },
+  "CAND_0005260": {
+    "llm_score": 0.7,
+    "reasoning": "The candidate has production experience with embeddings and vector search, specifically with BGE embeddings and FAISS HNSW in their previous role at Yellow.ai. However, there's a gap in their recent experience with fine-tuning LLaMA-2-7B and Mistral-7B variants, which is a key requirement for the role. They also have a strong background in NLP and product-company experience, having worked at Netflix and Yellow.ai."
+  },
+  "CAND_0006557": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0006557 has 7.9 years of experience with production experience in embeddings-based retrieval (sentence-transformers) and vector search (FAISS, Pinecone, Weaviate) at Apple and Paytm. The candidate has a 'shipper' mindset with product-company experience, having worked at Apple and Paytm, and has a short notice period of 120 days. However, the candidate's GitHub activity score is -1/100, indicating a lack of public code contributions, and the Redrob assessment scores are not exceptional, with"
+  },
+  "CAND_0008295": {
+    "llm_score": 0.7,
+    "reasoning": "CAND_0008295 has 6.5 years of experience, with 50 months at Razorpay building NLP pipelines for sentiment analysis and document classification, which includes production experience with embeddings (transformers) and vector search (Weaviate). However, there's a gap in their experience with embeddings-based retrieval specifically, as they only mention building NLP pipelines. They also have experience with product-company background at Razorpay, but their notice period is 45 days, which is slightly"
+  },
+  "CAND_0074342": {
+    "llm_score": 0.3,
+    "reasoning": "CAND_0074342 has 5.7 years of experience, but lacks real production experience with embeddings-based retrieval and vector DB/hybrid search. Although they have experience with Flask-based prediction API and OpenSearch, it's not directly related to the required skills. They also have a product-company background with Zoho, but their notice period is 30 days, which is slightly longer than preferred."
+  },
+  "CAND_0074225": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0074225 has some relevant production experience with embeddings and vector search, having built a document ingestion pipeline with Pinecone at Mad Street Den. However, the candidate's experience is mostly focused on RAG-based customer support chatbots and ranking models, which doesn't directly align with the required expertise in embeddings-based retrieval. Additionally, the candidate's notice period is 120 days, which exceeds the preferred sub-30 days. The candidate's GitHub activity score"
+  },
+  "CAND_0003791": {
+    "llm_score": 0.0,
+    "reasoning": "The candidate lacks real production experience with embeddings and vector search, as their skills are more focused on computer vision and LLMs. Their experience is also mostly in research-oriented roles, such as building computer vision models and fine-tuning ResNet variants, rather than deploying embeddings-based retrieval systems to real users."
+  },
+  "CAND_0073982": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0073982 has 7 years of experience, but lacks real production experience with embeddings and vector search, as their work at Dream11 and Tech Mahindra focused on customer-facing predictive modeling using scikit-learn and XGBoost. They do have experience with Sentence Transformers, but their Redrob assessment score is only 63 out of an unknown maximum, indicating a moderate level of proficiency."
+  },
+  "CAND_0083852": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0083852 has some relevant experience with vector search (Qdrant, Pinecone), but lacks clear evidence of embeddings-based retrieval experience. They also have a mix of product-company experience (Dream11, Mad Street Den), but the notice period is 90 days, which is longer than preferred."
+  },
+  "CAND_0032216": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0032216 has some relevant experience with embeddings and vector search, specifically with Sentence Transformers (71 score) and Qdrant (intermediate skill). However, there is no clear indication of production experience with these technologies. Additionally, the candidate's background is mostly in product companies, but the notice period is 30 days, which exceeds the preferred sub-30 days. The candidate's GitHub activity score is low, and the recruiter response rate is also low, indicating p"
+  },
+  "CAND_0061175": {
+    "llm_score": 0.6,
+    "reasoning": "CAND_0061175 has 6.7 years of experience, but lacks direct production experience with embeddings-based retrieval and vector search. Although they have experience with recommendation systems and Qdrant, their scores are not exceptionally high (72 and 50 respectively). They have a mix of product-company experience, but the notice period is 120 days, which is longer than preferred."
+  },
+  "CAND_0051003": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0051003 has some experience with embeddings (intermediate) and vector search (Semantic Search, advanced), but lacks real production experience with embeddings-based retrieval. They have product-company experience at Flipkart and Genpact AI, but their notice period is 60 days, which is longer than preferred. They have a strong GitHub activity score and are responsive to recruiters, but their recent experience is mostly in research and development rather than production shipping."
+  },
+  "CAND_0011125": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0011125 has 6.6 years of experience, but lacks real production experience with embeddings and vector search. They have experience with Weaviate, but it's not clear if it's in a production setting. They also have experience with computer vision and PyTorch, but it's not directly related to the role. They have a strong GitHub activity score and a good Redrob assessment score in Information Retrieval, but their notice period is 120 days, which is longer than preferred."
+  },
+  "CAND_0023458": {
+    "llm_score": 0.4,
+    "reasoning": "The candidate has some relevant experience with embeddings (Sentence Transformers) and vector search (FAISS), but it's not clear if it's in production. They have 5 years of experience, including 42 months at BYJU'S where they worked on customer-facing predictive modeling. However, their GitHub activity score is low (20.5/100) and their Redrob assessment scores for Prompt Engineering and BM25 are not high (44 and 58 respectively)."
+  },
+  "CAND_0068932": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0068932 has 5.2 years of experience, but lacks direct production experience with embeddings-based retrieval (sentence-transformers, BGE, E5, etc.) and vector DB / hybrid search (Pinecone, Weaviate, Qdrant, FAISS, Elasticsearch, OpenSearch). Although they have experience with OpenSearch (advanced) and worked in a product-company environment at Krutrim, their skills and experience don't fully align with the role's requirements."
+  },
+  "CAND_0083307": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0083307 has 7.8 years of experience with real production experience in embeddings-based retrieval (sentence-transformers, BGE, E5) and vector DB/hybrid search (Pinecone, Weaviate, Qdrant, FAISS). They have a strong product-company background, having worked at CRED, Netflix, and Ola. However, there is a gap in their notice period, which is 120 days, exceeding the preferred sub-30 days. Additionally, their GitHub activity score is 69.2/100, indicating some inactivity."
+  },
+  "CAND_0035879": {
+    "llm_score": 0.2,
+    "reasoning": "The candidate, CAND_0035879, has 4.5 years of experience but lacks real production experience with embeddings-based retrieval and vector search, which is a key requirement for the Senior AI Engineer role. Although they have experience with Pinecone (intermediate) and Elasticsearch (intermediate), it's not explicitly mentioned that they have deployed these technologies to real users."
+  },
+  "CAND_0077285": {
+    "llm_score": 0.7,
+    "reasoning": "CAND_0077285 has 5.5 years of experience with production experience in embeddings-based retrieval (Sentence Transformers, Pinecone) and vector DB/hybrid search (Pinecone). He has a product-company background with experience at Nykaa and Netflix, and has shipped working systems fast. However, his notice period is 60 days, which is above the preferred sub-30 days. He also has a strong GitHub activity score of 75.6/100 and is relatively active on the platform."
+  },
+  "CAND_0080051": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0080051 has 5.2 years of experience, but lacks direct production experience with embeddings-based retrieval and vector DB/hybrid search. Although they have experience with ML feature engineering and model deployment at Niramai, it's not specifically with embeddings or vector search. They also have a strong background in NLP and information retrieval, but it's not clear if they have experience with ranking systems or evaluation frameworks."
+  },
+  "CAND_0041568": {
+    "llm_score": 0.6,
+    "reasoning": "CAND_0041568 has 5.2 years of experience with production experience in embeddings-based retrieval (sentence-transformers) and vector search (Pinecone) at Flipkart. However, there's a gap in recent production experience as the most recent role at Haptik is not explicitly mentioned as having embeddings or vector search experience, although it does mention ranking and retrieval. The candidate also has a product-company background with experience at Haptik and Flipkart."
+  },
+  "CAND_0091534": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0091534 has 9+ years of production experience with embeddings-based retrieval (sentence-transformers, BGE) and vector DB/hybrid search (Pinecone, FAISS) at Flipkart and Adobe. He has a strong product-company background with experience shipping working systems fast, and his Redrob assessment scores for Hugging Face Transformers and scikit-learn are high (76 and 74 respectively). However, he has 7+ years of experience beyond the required 5-9 years, which may indicate a gap in recent experienc"
+  },
+  "CAND_0073314": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0073314 has 5.2 years of experience, but lacks direct production experience with embeddings-based retrieval and vector DB/hybrid search. They have experience with Elasticsearch (intermediate) and Milvus (intermediate), but these are not the specific technologies mentioned in the job description. They also have experience working in product companies (Paytm and Aganitha), which is a plus. However, their notice period is 60 days, which is longer than the preferred sub-30 days. Their GitHub ac"
+  },
+  "CAND_0018701": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0018701 has 6 years of experience, but lacks real production experience with embeddings and vector search. They have experience with Elasticsearch, but the assessment score is only 55, and there's no mention of embeddings-based retrieval or vector DB/hybrid search. They also have a long notice period of 60 days, which is a red flag."
+  },
+  "CAND_0039269": {
+    "llm_score": 0.0,
+    "reasoning": "CAND_0039269 lacks real production experience with embeddings and vector search, as their experience is in computer vision models for image moderation features. They also lack product-company experience, having worked in consulting roles at Ola and Zomato, and their GitHub activity score is relatively low, indicating potential inactivity."
+  },
+  "CAND_0047907": {
+    "llm_score": 0.3,
+    "reasoning": "The candidate has 6.6 years of experience, but lacks real production experience with embeddings-based retrieval and vector DB/hybrid search. Although they have experience with OpenSearch, it's not explicitly mentioned as a production deployment. They have a strong background in computer vision and BentoML, but these skills don't directly align with the required skills for the Senior AI Engineer role. The candidate's notice period is 90 days, which is longer than the preferred sub-30 days. They a"
+  },
+  "CAND_0020350": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0020350 has 5.8 years of experience, with production experience at Zoho and InMobi, but lacks specific details about embeddings-based retrieval and vector DB/hybrid search experience. Their Redrob assessment scores for LLMs (56) and LoRA (51) are decent, but not exceptional."
+  },
+  "CAND_0099269": {
+    "llm_score": 0.42,
+    "reasoning": "CAND_0099269 has 5.5 years of experience, but lacks direct production experience with embeddings-based retrieval and vector DB/hybrid search. Although they have experience with Elasticsearch (72/100) and Qdrant (intermediate), it's not explicitly stated as production-level experience. They also have a strong background in NLP (advanced) and LLMs (advanced), but this doesn't directly align with the required skills. They have a product-company background with BYJU'S, but their notice period is 120"
+  },
+  "CAND_0064270": {
+    "llm_score": 0.6,
+    "reasoning": "CAND_0064270 has 4.2 years of experience, with production experience at Verloop.io where they trained and shipped multiple ranking models using XGBoost and LightGBM. They also have experience with embeddings-based retrieval using Sentence Transformers and OpenSearch, with a score of 74 on LlamaIndex. However, there is a gap in their experience with vector DB/hybrid search, and their GitHub activity score is -1/100, indicating no linked GitHub profile."
+  },
+  "CAND_0032515": {
+    "llm_score": 0.6,
+    "reasoning": "CAND_0032515 has 5.1 years of experience with production ML experience, including embeddings-based retrieval (fine-tuning LLMs) and vector search (Elasticsearch, QLoRA). However, there's a gap in direct experience with specific technologies like Pinecone, Weaviate, or FAISS. Additionally, the candidate has a product-company background with PharmEasy and Razorpay, but the notice period is 45 days, which is above the preferred sub-30 days."
+  },
+  "CAND_0017093": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0017093 has 5.9 years of experience, but lacks direct production experience with embeddings-based retrieval and vector DB/hybrid search. They have experience with embeddings (advanced) and BM25 (advanced), but it's unclear if they've deployed these skills in production. They also have experience with product companies (Zoho, Wysa), but their notice period is 30 days, which is slightly above the preferred sub-30 days."
+  },
+  "CAND_0051292": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0051292 has 5.2 years of experience with production experience in embeddings-based retrieval (sentence-transformers, BGE) and vector search (FAISS, Pinecone) at Vedantu and Freshworks. He has a 'shipper' mindset with product-company experience, having worked at Freshworks and Vedantu, and has a short notice period of 30 days."
+  },
+  "CAND_0022463": {
+    "llm_score": 0.3,
+    "reasoning": "The candidate has experience with Sentence Transformers (87 score) and Embeddings (51 score), but lacks real production experience with embeddings and vector search. They have worked on a product company (Zomato) but their experience is mostly in analytics and ML, not specifically in AI/ML production. Their notice period is 120 days, which is longer than preferred. They have a strong GitHub activity score and are responsive to recruiters."
+  },
+  "CAND_0065514": {
+    "llm_score": 0.6,
+    "reasoning": "CAND_0065514 has 6.6 years of experience, with production experience in NLP pipelines for sentiment analysis and document classification at Genpact AI and Rephrase.ai. However, there is a gap in embeddings-based retrieval and vector DB/hybrid search experience, as the candidate's skills are mostly focused on NLP pipelines and time-series forecasting. The candidate has experience with Pinecone, but the score is 67, which is above average."
+  },
+  "CAND_0096172": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0096172 has 5.2 years of experience with real production experience in embeddings-based retrieval (sentence-transformers, BGE) and vector DB/hybrid search (FAISS) at Krutrim, which is a product company. However, there is a gap in the notice period, which is 45 days, exceeding the preferred sub-30 days. Additionally, the candidate has a strong GitHub activity score of 65.0/100 and is relatively active, but the recruiter response rate is 0.47, indicating some potential communication challenge"
+  },
+  "CAND_0016432": {
+    "llm_score": 0.3,
+    "reasoning": "CAND_0016432 has 4.6 years of experience, but lacks real production experience with embeddings and vector search. They have experience with NLP pipelines, but it's primarily for internal feedback-analytics dashboards, not deployed to real users. Their Redrob assessment scores for Time Series and Object Detection are below 70, indicating some gaps in their skills."
+  },
+  "CAND_0008978": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0008978 has 6.7 years of experience, but lacks real production experience with embeddings-based retrieval and vector DB/hybrid search. Although they have experience with Elasticsearch, it's not a direct match for the required skills. They also have a strong background in NLP and feature engineering, but the notice period is 90 days, which is longer than preferred."
+  },
+  "CAND_0046353": {
+    "llm_score": 0.5,
+    "reasoning": "CAND_0046353 has 6.4 years of experience, but lacks explicit production experience with embeddings-based retrieval (sentence-transformers, BGE, E5, etc.) and vector DB / hybrid search (Pinecone, Weaviate, Qdrant, FAISS, Elasticsearch, OpenSearch). Although they have experience with FAISS and Weaviate, it's not explicitly mentioned as being in production."
+  },
+  "CAND_0078042": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0078042 has some relevant experience with embeddings-based retrieval (Sentence Transformers, expert) and vector DB (Pinecone, expert), but lacks real production experience with embeddings + vector search in a product company. They have shipped multiple ranking models in a product company (PolicyBazaar) but the specific skills mentioned in the job description (e.g. BGE, E5) are not explicitly mentioned in their profile. Their notice period is 30 days, which is slightly above the preferred su"
+  },
+  "CAND_0070202": {
+    "llm_score": 0.7,
+    "reasoning": "CAND_0070202 has 5.1 years of experience with production experience in embeddings-based retrieval (sentence-transformers) and vector DB / hybrid search (Qdrant) at BYJU'S and Dream11. However, the candidate's GitHub activity score is -1/100, indicating no linked GitHub profile, and the Redrob assessment scores for Embeddings and Qdrant are 54 and 56 respectively, which are below expectations."
+  },
+  "CAND_0091890": {
+    "llm_score": 0.2,
+    "reasoning": "The candidate, CAND_0091890, has some production experience with vector search using Pinecone, but lacks real production experience with embeddings-based retrieval. They also have a mix of product-company and consulting experience, which is a concern. Their notice period is 60 days, which exceeds the preferred sub-30 days. Additionally, their Redrob assessment scores for Statistical Modeling and scikit-learn are 67 and 76 respectively, indicating some gaps in these areas."
+  },
+  "CAND_0043304": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0043304 has 6.5 years of experience, but lacks real production experience with embeddings-based retrieval (sentence-transformers, BGE, E5, etc.) deployed to real users. Although they have experience with Qdrant (intermediate) and Weaviate is not mentioned, it's not enough to meet the requirement. They also have a strong background in machine learning and have worked on production projects, but the notice period is 90 days, which is above the preferred sub-30 days."
+  },
+  "CAND_0098217": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0098217 has 6.4 years of experience in analytics and ML, with production experience at Glance and Freshworks. However, the candidate's experience is mostly focused on building NLP pipelines for sentiment analysis and document classification, with limited evidence of embeddings-based retrieval and vector DB/hybrid search experience. The candidate has experience with FAISS, but it's listed as intermediate, and there's no clear indication of deploying it to real users. Additionally, the candid"
+  },
+  "CAND_0024466": {
+    "llm_score": 0.6,
+    "reasoning": "CAND_0024466 has 5.2 years of experience, with production experience as a Search Engineer at PharmEasy, where they owned the ranking layer for an e-commerce search product and evolved it from a hand-tuned scoring function to a learning-to-rank model. They also have experience with embeddings-based retrieval, specifically using sentence-transformer embeddings, and vector search with pgvector. However, their current location is Toronto, which is not preferred, and their notice period is 120 days, "
+  },
+  "CAND_0013613": {
+    "llm_score": 0.6,
+    "reasoning": "CAND_0013613 has 4.7 years of experience with production experience in embeddings-based retrieval using sentence-transformers (bge-base) with FAISS at Adobe. However, there is a gap in their experience with vector DB/hybrid search, as they only used FAISS. Additionally, their notice period is 60 days, which is longer than the preferred sub-30 days."
+  },
+  "CAND_0015967": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0015967 has 5.4 years of experience, but lacks direct production experience with embeddings-based retrieval (sentence-transformers, BGE, E5, etc.) and vector DB / hybrid search (Pinecone, Weaviate, Qdrant, FAISS, Elasticsearch, OpenSearch). Although they have experience with Pinecone (intermediate) and worked on a recommendation-style feature at Razorpay, it's not directly related to the required skills."
+  },
+  "CAND_0081852": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0081852 has 5.9 years of experience and has worked on production ML pipelines using Pinecone for vector search and OpenAI embeddings. They have also worked on a churn prediction model and implemented a RAG-based customer support chatbot. However, there is a gap in their experience with embeddings-based retrieval, as they only used OpenAI embeddings. Additionally, their notice period is 45 days, which is slightly longer than the preferred sub-30 days."
+  },
+  "CAND_0094728": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0094728 has 6.5 years of experience, but lacks direct production experience with embeddings-based retrieval and vector DB/hybrid search. Although they have worked on NLP pipelines and have some relevant skills like BM25 and MLflow, their experience is mostly focused on internal feedback-analytics dashboards and fraud-detection products. They also have a relatively low GitHub activity score and a longer notice period, which raises some concerns about their fit for the role."
+  },
+  "CAND_0051466": {
+    "llm_score": 0.3,
+    "reasoning": "CAND_0051466 has 5.3 years of experience, but lacks real production experience with embeddings and vector search. They have worked on time-series forecasting models and customer-facing predictive modeling, but there is no mention of embeddings-based retrieval or vector DB/hybrid search. Their Redrob assessment score for Kubeflow is high (84), but this is not a key requirement for the Senior AI Engineer role. They also have a long notice period (60 days) and have been inactive on GitHub for a whi"
+  },
+  "CAND_0078002": {
+    "llm_score": 0.7,
+    "reasoning": "CAND_0078002 has 6.3 years of experience with production experience in embeddings-based retrieval (sentence-transformers) and vector DB search (Weaviate), as seen in their work at Genpact AI. They also have experience shipping ranking models in product companies like Meta and CRED, indicating a 'shipper' mindset."
+  },
+  "CAND_0005509": {
+    "llm_score": 0.4,
+    "reasoning": "The candidate has some production experience with recommendation-style features at mid-stage startups, but lacks direct experience with embeddings-based retrieval and vector DB/hybrid search. They also have experience with PyTorch and fine-tuning ResNet variants, but this is not directly relevant to the role. The candidate's GitHub activity score is 74.2/100, indicating some level of activity, but the lack of Redrob assessment scores and a short response rate of 0.4 raises some concerns about th"
+  },
+  "CAND_0011432": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0011432 has 7.6 years of experience with production experience in embeddings-based retrieval (RAG-based chatbot, Pinecone) and vector search (Pinecone). They have a product-company background with experience at Amazon and Nykaa, and have shipped multiple ranking models. However, there is a gap in their experience with sentence-transformers, BGE, E5, etc. and evaluation frameworks for ranking (NDCG, MRR, MAP, A/B testing)."
+  },
+  "CAND_0029671": {
+    "llm_score": 0.3,
+    "reasoning": "CAND_0029671 has 5.7 years of experience, but lacks real production experience with embeddings and vector search. Although they have experience with Qdrant (87 score), it's not explicitly mentioned as a production deployment. They also have experience with product companies (BYJU'S, Ola), but their notice period is 90 days, which is longer than preferred. Their GitHub activity score is -1/100, indicating no linked GitHub account, and their recruiter response rate is 0.5, indicating low responsiv"
+  },
+  "CAND_0069248": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0069248 has 5.4 years of experience, but lacks direct production experience with embeddings-based retrieval and vector DB/hybrid search. They have experience building recommendation-style features at Unacademy, but it's lighter weight than ranking systems. They also have experience with NLP pipelines at PharmEasy, but it's primarily for an internal feedback-analytics dashboard. Their Redrob assessment scores for OpenCV, BentoML, and QLoRA are 69, 87, and 58 respectively, indicating some pro"
+  },
+  "CAND_0070514": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0070514 has some relevant experience with Pinecone (vector DB), but lacks production experience with embeddings-based retrieval. They have product-company experience at BYJU'S, but it's not directly related to AI engineering. Their notice period is 60 days, which is longer than preferred. They have some active GitHub activity and decent Redrob assessment scores, but their career history shows a gap in production experience with embeddings and vector search."
+  },
+  "CAND_0005538": {
+    "llm_score": 0.7,
+    "reasoning": "CAND_0005538 has 5.9 years of experience in production systems, with experience in building infrastructure to surface relevant content to users at scale at Adobe, and building systems that understand what users are looking for and connect them to the most relevant matches across a large dataset at Locobuzz and Google. However, there is a gap in their experience with vector DB/hybrid search, as their key skills do not explicitly mention Pinecone, Weaviate, Qdrant, FAISS, Elasticsearch, or OpenSea"
+  },
+  "CAND_0071939": {
+    "llm_score": 0.3,
+    "reasoning": "CAND_0071939 has 6.4 years of experience, but lacks real production experience with embeddings and vector search. Although they have skills like OpenSearch, Embeddings, and QLoRA, their Redrob assessment scores are not exceptionally high (42, 45, 48). Their GitHub activity score is -1/100, indicating no linked profile. They have experience in computer vision and PyTorch, but it's not directly related to the required skills. Their career history shows a focus on consulting and product development"
+  },
+  "CAND_0093547": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0093547 has 2.9 years of experience, but lacks real production experience with embeddings and vector search, as their experience is mostly focused on LLMs and RAGs. They also lack a 'shipper' mindset with a product-company background, having worked in multiple consulting-like roles."
+  },
+  "CAND_0094056": {
+    "llm_score": 0.85,
+    "reasoning": "CAND_0094056 has 5.9 years of experience with real production experience in embeddings-based retrieval using sentence-transformers and FAISS at Rephrase.ai, and vector DB/hybrid search using Pinecone. They have a product-company background with experience at Adobe, and a 'shipper' mindset with a short notice period. However, their GitHub activity score is not linked, and there are no Redrob assessment scores available."
+  },
+  "CAND_0010408": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0010408 has 5.7 years of experience, but lacks real production experience with embeddings-based retrieval and vector DB/hybrid search. Although they have experience with PyTorch and computer vision, their current role is as a Junior ML Engineer at Meesho, which doesn't match the required 'shipper' mindset with product-company background. Their notice period is 60 days, which is longer than preferred. They have some relevant skills like Learning to Rank and Milvus, but their Redrob assessmen"
+  },
+  "CAND_0054100": {
+    "llm_score": 0.2,
+    "reasoning": "CAND_0054100 has 6 years of experience, but lacks real production experience with embeddings and vector search. Although they have experience with NLP pipelines, it's primarily for internal feedback-analytics dashboards, not deployed to real users. Their Redrob assessment scores for Vector Search and Reinforcement Learning are 82 and 61, respectively, but this is not enough to compensate for the lack of production experience."
+  },
+  "CAND_0044890": {
+    "llm_score": 0.2,
+    "reasoning": "CAND_0044890 has 5 years of experience, but lacks real production experience with embeddings-based retrieval (sentence-transformers, BGE, E5, etc.) deployed to real users. Although they have experience with FAISS and BentoML, their Redrob assessment scores for these skills are 45 and 64 respectively, indicating a need for improvement."
+  },
+  "CAND_0044883": {
+    "llm_score": 0.8,
+    "reasoning": "The candidate has 6.3 years of experience with real production experience in embeddings-based retrieval (sentence-transformers, BGE) and vector DB (Pinecone) at Mad Street Den and Meesho. They also have a 'shipper' mindset with product-company experience at Adobe and Meesho, and strong behavioral signals with a high recruiter response rate (0.84) and a short notice period (90 days)."
+  },
+  "CAND_0022274": {
+    "llm_score": 0.3,
+    "reasoning": "CAND_0022274 has 4.5 years of experience, but lacks real production experience with embeddings and vector search. They have worked on customer-facing predictive modeling and fraud-detection products, but the skills mentioned (scikit-learn, XGBoost, Flask, etc.) do not align with the required skills (sentence-transformers, BGE, E5, Pinecone, Weaviate, etc.). They also have a high GitHub activity score and decent Redrob assessment scores, but these do not compensate for the lack of relevant experi"
+  },
+  "CAND_0098952": {
+    "llm_score": 0.3,
+    "reasoning": "CAND_0098952 has 5.5 years of experience, but lacks direct production experience with embeddings-based retrieval and vector DB/hybrid search. Although they have experience with OpenSearch (intermediate) and worked on recommendation systems at Rephrase.ai, it's unclear if they have deployed these systems to real users. Additionally, their notice period is 45 days, which is slightly longer than preferred."
+  },
+  "CAND_0076482": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0076482 has some relevant experience with embeddings (intermediate) and vector search (advanced in Pinecone), but lacks real production experience with embeddings-based retrieval. They have product-company experience as an ML Engineer at Flipkart, but their notice period is 60 days, which is longer than preferred. They have strong behavioral signals as an active and responsive candidate with a high GitHub activity score and good Redrob assessment scores."
+  },
+  "CAND_0058146": {
+    "llm_score": 0.0,
+    "reasoning": "The candidate lacks real production experience with embeddings and vector search, as their skills are mostly focused on LLMs, Recommendation Systems, and Qdrant, but there is no mention of actual deployment or usage in production. Additionally, the candidate's experience is mostly in customer-facing predictive modeling, which does not align with the required 'shipper' mindset for shipping working systems fast."
+  },
+  "CAND_0089947": {
+    "llm_score": 0.2,
+    "reasoning": "CAND_0089947 has some relevant experience with vector search (Vector Search=78) and Elasticsearch (Elasticsearch=86), but lacks production experience with embeddings-based retrieval. Additionally, the candidate's experience is mostly in computer vision and predictive modeling, which doesn't align with the required product-company background."
+  },
+  "CAND_0061339": {
+    "llm_score": 0.6,
+    "reasoning": "CAND_0061339 has 4.2 years of experience, but only 28 months of experience as a Search Engineer at Rephrase.ai, where they built a content recommendation system using sentence-transformer embeddings. They also have experience with vector search and ranking models, but lack experience with embeddings-based retrieval deployed to real users. Their Redrob assessment score for Information Retrieval is 52, indicating some knowledge but not strong proficiency."
+  },
+  "CAND_0008049": {
+    "llm_score": 0.4,
+    "reasoning": "The candidate has some experience with embeddings-based retrieval (Sentence Transformers) and vector search (Haystack), but it's not explicitly stated that it's in production. They also have experience with product-company background (Niramai, PolicyBazaar), but their notice period is 60 days, which is longer than preferred. Their GitHub activity score is 58.9/100, and their Redrob assessment scores are decent, but not exceptional. There are no major red flags, but the candidate's experience wit"
+  },
+  "CAND_0073883": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0073883 has 5.3 years of experience, but lacks direct production experience with embeddings-based retrieval and vector search. Although they have experience with Vector Search (intermediate) and built recommendation-style features at Razorpay, it's not directly applicable to the role. Additionally, their Redrob assessment scores for Reinforcement Learning and PEFT are relatively low, indicating potential gaps in these areas."
+  },
+  "CAND_0083879": {
+    "llm_score": 0.5,
+    "reasoning": "Candidate CAND_0083879 has 7.1 years of experience, with production experience at Ola and PhonePe, where they built and operated ML pipelines and trained ranking models using XGBoost and LightGBM. However, there is no explicit mention of embeddings-based retrieval or vector DB/hybrid search experience, which are key requirements for the Senior AI Engineer role at Redrob AI."
+  },
+  "CAND_0073504": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0073504 has 6.6 years of experience, but lacks real production experience with embeddings and vector search. Although they have worked on customer-facing predictive modeling and built recommendation-style features, these are not directly related to the required skills. They have some experience with Elasticsearch, but their Redrob assessment score is 54, which is below average."
+  },
+  "CAND_0013393": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0013393 has 5.3 years of experience, but lacks direct production experience with embeddings-based retrieval and vector DB/hybrid search. Although they have experience with Pinecone and Qdrant, the skills are not consistently demonstrated in production environments. They have worked in product-company settings, but the notice period is 60 days, which is longer than preferred."
+  },
+  "CAND_0045475": {
+    "llm_score": 0.2,
+    "reasoning": "The candidate has 4.9 years of experience, but lacks production experience with embeddings-based retrieval and vector DB/hybrid search. Their experience is mostly in computer vision with PyTorch, and they have a high score in PyTorch (49) but low scores in other relevant skills like Pinecone (59) and OpenSearch (intermediate). They also have a long notice period of 60 days, which is a red flag."
+  },
+  "CAND_0018722": {
+    "llm_score": 0.7,
+    "reasoning": "CAND_0018722 has 6.6 years of experience with production experience in embeddings-based retrieval (sentence-transformers, BGE) and vector DB search (FAISS) at Saarthi.ai. However, there's a gap in their experience with hybrid search engines like Pinecone, Weaviate, or Qdrant. They also have a strong product-company background with experience at Saarthi.ai and Unacademy, and a 'shipper' mindset with a GitHub activity score of 94.3/100."
+  },
+  "CAND_0043312": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0043312 has some relevant experience with Qdrant, a vector DB, but lacks production experience with embeddings-based retrieval. They have a product-company background at Haptik, but their experience is mostly in computer vision, not embeddings or vector search. Their notice period is 30 days, which is slightly longer than preferred. They have a decent GitHub activity score and are responsive to recruiters, but their lack of production experience with embeddings and vector search is a signif"
+  },
+  "CAND_0039962": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0039962 has 6.5 years of experience, but lacks real production experience with embeddings and vector search, as their skills are mostly focused on computer vision and time-series forecasting. They have some experience with Pinecone, but it's intermediate level and not explicitly mentioned as a production experience."
+  },
+  "CAND_0058688": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0058688 has 6.7 years of experience with production ML experience at Vedantu and Apple. He has experience with embeddings-based retrieval (sentence-transformer embeddings) and vector DB (Milvus) which aligns with the job requirements. However, there's a gap in his experience with specific vector DB/hybrid search technologies like Pinecone, Weaviate, Qdrant, FAISS, Elasticsearch, and OpenSearch."
+  },
+  "CAND_0066999": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0066999 has 5.9 years of experience and has worked on production ML pipelines at Microsoft and Amazon, including a churn prediction model and a ranking layer for an e-commerce search product. He has also demonstrated expertise in FAISS, Pinecone, and OpenSearch, with high Redrob assessment scores (90, 70, and 63 respectively)."
+  },
+  "CAND_0044855": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0044855 has 6.6 years of experience with production experience in embeddings-based retrieval (sentence-transformers, BGE) and vector DB / hybrid search (Pinecone, FAISS) at Flipkart and LinkedIn. He has a strong product-company background with experience in building recommendation systems and chatbots, and has shown a 'shipper' mindset with multiple deployments. However, he has a 60-day notice period, which is slightly longer than preferred."
+  },
+  "CAND_0030031": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0030031 has 5.7 years of experience with production experience at Microsoft, where they built a content recommendation system using sentence-transformer embeddings. They also have experience with vector search at Google, where they trained and shipped multiple ranking models. However, their GitHub activity score is relatively low (32.4/100), and their notice period is 30 days, which is slightly above the preferred sub-30 days. Overall, they have a strong product-company background and relev"
+  },
+  "CAND_0009691": {
+    "llm_score": 0.8,
+    "reasoning": "The candidate has 6.2 years of experience with real production experience in embeddings-based retrieval (sentence-transformers) and vector DB / hybrid search (Pinecone) at LinkedIn. They also have a strong product-company background with experience in building content recommendation systems serving 10M+ users."
+  },
+  "CAND_0096142": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0096142 has 5 years of experience with production experience in embeddings-based retrieval (sentence-transformers at BYJU'S) and vector DB / hybrid search (Pinecone, Weaviate at upGrad and BYJU'S). They have a 'shipper' mindset with product-company experience at upGrad and BYJU'S, and strong behavioral signals with an active GitHub profile and short notice period. However, there is a slight gap in their experience with evaluation frameworks for ranking, as they only mentioned NDCG in their "
+  },
+  "CAND_0075574": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0075574 has 5.7 years of experience with production experience in embeddings-based retrieval (sentence-transformers, BGE) and vector DB / hybrid search (Pinecone, Weaviate, Qdrant) at Haptik and Observe.AI. He also has a 'shipper' mindset with product-company experience, having shipped multiple ranking models and designed relevance labeling pipelines. However, there is a slight gap in his experience with evaluation frameworks for ranking, as his Redrob assessment scores for NDCG, MRR, and M"
+  },
+  "CAND_0070398": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0070398 has 7.2 years of experience with production experience in embeddings-based retrieval (sentence-transformers, BGE) and vector DB / hybrid search (FAISS) at Genpact AI and Uber. He also has a 'shipper' mindset with product-company experience and has shipped working systems fast. However, his notice period is 120 days, which is above the preferred sub-30 days. His GitHub activity score is 63.1/100 and Redrob assessment scores are decent, but not exceptional."
+  },
+  "CAND_0046525": {
+    "llm_score": 0.85,
+    "reasoning": "CAND_0046525 has 6.1 years of experience with real production experience in embeddings-based search at Genpact AI, where they led the migration to embedding-based search across a 30M+ candidate corpus. They also have experience with vector search using FAISS HNSW at LinkedIn. Additionally, they have strong behavioral signals, being active on GitHub and responsive to recruiters, with a short notice period of 60 days."
+  },
+  "CAND_0041669": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0041669 has 8 years of experience with real production experience in embeddings-based retrieval (sentence-transformers, item-item similarity) and vector DB / hybrid search (Pinecone, FAISS). They have a strong product-company background with experience at CRED, Mad Street Den, and Yellow.ai. Their GitHub activity score is 70.9/100, and Redrob assessment scores for FAISS and Milvus are 84 and 76, respectively. However, there is a slight gap in their notice period, which is 60 days, exceeding"
+  },
+  "CAND_0037566": {
+    "llm_score": 0.8,
+    "reasoning": "The candidate has 6.9 years of experience and has worked on embeddings-based retrieval and vector search in production environments at LinkedIn and Paytm, using Pinecone. They also have a strong GitHub activity score and have been active recently, with a short notice period of 15 days."
+  },
+  "CAND_0099806": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0099806 has 4.6 years of experience, but lacks direct production experience with embeddings-based retrieval (sentence-transformers, BGE, E5, etc.) and vector DB / hybrid search (Pinecone, Weaviate, Qdrant, FAISS, Elasticsearch, OpenSearch). Although they have experience with FAISS (expert) and Embeddings (expert), it's not explicitly mentioned as being in production. They also have experience with product-company background at Mad Street Den and upGrad, but it's not clear if they have 'ship"
+  },
+  "CAND_0047721": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0047721 has 7 years of experience with production experience in building a content recommendation system at Microsoft, which combined collaborative filtering with content-based ranking using item-item similarity via sentence-transformer embeddings. They also have experience with vector search using Qdrant and FAISS. However, there's a gap in their experience with embeddings-based retrieval as the primary focus of their work was on content recommendation. Additionally, they have a 90-day not"
+  },
+  "CAND_0000031": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0000031 has 6 years of experience with production experience in recommendation systems, search, and retrieval. They have worked with embeddings (Embeddings expert) and vector search (Pinecone expert) at Swiggy and Mad Street Den, and have shipped multiple ranking models using XGBoost and LightGBM. They also have experience with product-company roles, having worked at Swiggy, Mad Street Den, Uber, and Zomato. However, there is a slight gap in their experience with sentence-transformers, BGE,"
+  },
+  "CAND_0042506": {
+    "llm_score": 0.6,
+    "reasoning": "CAND_0042506 has 4.2 years of experience and has worked on production-level projects at Verloop.io and Meesho, including embeddings-based retrieval with Pinecone and sentence-transformer embeddings. However, there is a gap in their experience with evaluation frameworks for ranking (NDCG, MRR, MAP, A/B testing) and their notice period is 15 days, which is below the preferred sub-30 days. They also have a strong GitHub activity score and Redrob assessment scores, indicating active and responsive b"
+  },
+  "CAND_0041610": {
+    "llm_score": 0.7,
+    "reasoning": "CAND_0041610 has 6.7 years of experience with production experience in embeddings-based retrieval (sentence-transformers, BGE, E5) and vector DB / hybrid search (Pinecone, Weaviate, Qdrant, FAISS, Elasticsearch, OpenSearch) at Zoho and InMobi. He also has a strong product-company background with experience in shipping working systems fast, as evident from his roles at Zoho and Observe.AI."
+  },
+  "CAND_0087630": {
+    "llm_score": 0.7,
+    "reasoning": "CAND_0087630 has 7.2 years of experience with production experience in building content recommendation systems using embeddings (sentence-transformer) and vector search (Elasticsearch) at Vedantu, Haptik, and Glance. However, there is a gap in the specific skills required for the role, such as Pinecone, Weaviate, Qdrant, and FAISS, which are not mentioned in the candidate's profile."
+  },
+  "CAND_0050454": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0050454 has 6.8 years of experience with production experience in embeddings-based retrieval (sentence-transformers, BGE) and vector DB search (FAISS) at Rephrase.ai and Adobe. He also has experience with product-company background, having worked at Uber and Adobe. However, his GitHub activity score is -1/100, indicating no linked GitHub account, and his Redrob assessment scores for PyTorch is 59, which is below the expected level for a senior AI engineer. Despite this, his career history s"
+  },
+  "CAND_0055905": {
+    "llm_score": 0.7,
+    "reasoning": "The candidate has 8.1 years of experience with production experience in embeddings-based retrieval (RAG-based ranking pipeline at Rephrase.ai) and vector search (hybrid setup combining sparse and dense vectors at Flipkart). However, the candidate's notice period is 30 days, which is slightly above the preferred sub-30 days. Additionally, the candidate's GitHub activity score is -1/100, indicating no linked GitHub account, and the Redrob assessment scores for some skills are below 80, indicating "
+  },
+  "CAND_0090155": {
+    "llm_score": 0.3,
+    "reasoning": "CAND_0090155 has 5.8 years of experience, but lacks real production experience with embeddings-based retrieval and vector search. Although they have experience with Pinecone (score 80) and Qdrant (intermediate), it's not clear if they've deployed these systems to real users. They also have experience with product companies like Swiggy and InMobi, but their role as an AI Specialist and ML Engineer doesn't necessarily imply a 'shipper' mindset. Their notice period is 90 days, which is longer than "
+  },
+  "CAND_0050876": {
+    "llm_score": 0.7,
+    "reasoning": "CAND_0050876 has 6 years of experience with production experience in embeddings-based retrieval (sentence-transformers) and vector DB/hybrid search (Qdrant, FAISS) at Yellow.ai and Razorpay. However, the candidate's current notice period is 90 days, which exceeds the preferred sub-30 days. Additionally, the candidate's GitHub activity score is high, indicating active engagement, and the recruiter response rate is moderate, suggesting some level of responsiveness."
+  },
+  "CAND_0054123": {
+    "llm_score": 0.7,
+    "reasoning": "CAND_0054123 has 4.7 years of experience with real production experience in embeddings-based retrieval (sentence-transformers, BGE) and vector search (FAISS) at Meta and CRED. However, the candidate's experience is mostly in content recommendation and semantic search, which may not directly align with the role's focus on retrieval and ranking. The candidate also has a strong product-company background, but the notice period is 60 days, which exceeds the preferred sub-30 days."
+  },
+  "CAND_0015578": {
+    "llm_score": 0.7,
+    "reasoning": "CAND_0015578 has 5.4 years of experience and has worked on embeddings-based retrieval and vector DB/hybrid search at Zoho, implementing a document ingestion pipeline with Pinecone. However, there's a gap in their production experience as they've worked on similar projects at two different companies, Glance and Zoho. They also have a strong background in NLP and embeddings, but their GitHub activity score is relatively low, indicating limited open-source contributions."
+  },
+  "CAND_0011687": {
+    "llm_score": 0.85,
+    "reasoning": "CAND_0011687 has 7.8 years of experience with production ML experience, specifically with embeddings-based retrieval (fine-tuned BGE-large) and vector DB (Pinecone retrieval) at Niramai. They also have experience with product-company background, having worked at Niramai, a consumer product company."
+  },
+  "CAND_0081686": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0081686 has 6 years of experience with real production experience in embeddings-based retrieval (sentence-transformers, BGE) and vector DB / hybrid search (FAISS) at Netflix and Niramai. He also has a 'shipper' mindset with product-company experience at Netflix and Zoho, and strong behavioral signals with an active GitHub profile and a recruiter response rate of 0.91."
+  },
+  "CAND_0081053": {
+    "llm_score": 0.8,
+    "reasoning": "Candidate CAND_0081053 has 5.4 years of experience with production ML experience, including building a churn prediction model at Glance and a content recommendation system at Salesforce that uses sentence-transformer embeddings. The candidate also has strong skills in LoRA, QLoRA, and Qdrant, with high Redrob assessment scores (83 and 89) and a GitHub activity score of 77.7/100. However, there is a gap in the candidate's location, as they are currently based in Chandigarh, which is not a preferr"
+  },
+  "CAND_0037944": {
+    "llm_score": 0.6,
+    "reasoning": "CAND_0037944 has 4.9 years of experience, with production experience in embeddings-based retrieval (Pinecone) and vector search (Pinecone, OpenSearch) at PolicyBazaar. However, the candidate's experience in embeddings-based retrieval is limited to a single project, and there is no clear indication of shipping working systems fast in a product-company environment."
+  },
+  "CAND_0069905": {
+    "llm_score": 0.8,
+    "reasoning": "Candidate CAND_0069905 has 6.6 years of experience with production experience in embeddings-based retrieval (sentence-transformers, BGE) and vector DB/hybrid search (FAISS) at Sarvam AI and Observe.AI. However, the candidate's notice period is 90 days, which is above the preferred sub-30 days. Additionally, the candidate's GitHub activity score is 44.8/100, indicating moderate activity."
+  },
+  "CAND_0039754": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0039754 has 16.2 years of experience, which exceeds the 5-9 years required. They have production experience with embeddings-based retrieval (fine-tuned BGE-large at Meta) and vector DB (Pinecone at Meta and FAISS at Observe.AI). However, their experience with Qdrant is expert-level, but not explicitly stated as production experience. They have a strong product-company background, having worked at Meta and Apple. Their GitHub activity score is 77.5/100, and they have been active recently. Th"
+  },
+  "CAND_0045250": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0045250 has 6.6 years of experience with production experience in embeddings-based retrieval (Sentence Transformers, Embeddings) and vector search (Vector Search, BM25). They have a product-company background with experience at Rephrase.ai and Paytm, indicating a 'shipper' mindset. However, there is a slight gap in their recent GitHub activity, but their Redrob assessment scores are decent, with the highest score being 83 in Sentence Transformers."
+  },
+  "CAND_0065195": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0065195 has 5.1 years of experience, with production experience in embeddings-based retrieval (OpenAI embeddings, Pinecone) and vector DB (Pinecone) at CRED. However, the candidate's LLM score is 61, indicating a moderate level of expertise, and the candidate has also worked on a churn prediction model at Google, which may not be directly related to the role."
+  },
+  "CAND_0053591": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0053591 has 5.3 years of experience with production experience in embeddings-based retrieval (sentence-transformers, Pinecone) and vector DB search (Pinecone, Qdrant) at Swiggy. He also has experience with product-company background at Ola and Swiggy, and has shipped working systems fast, indicating a 'shipper' mindset. However, his notice period is 60 days, which is above the preferred sub-30 days. Additionally, his GitHub activity score is 75.8/100, which is above average."
+  },
+  "CAND_0068811": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0068811 has 8 years of experience with real production experience in embeddings-based retrieval (sentence-transformers) and vector search (Pinecone, Qdrant). They have a product-company background with experience at Freshworks, Yellow.ai, Meesho, and Salesforce. However, there is a slight gap in their experience with evaluation frameworks for ranking (NDCG, MRR, MAP, A/B testing) as it is not explicitly mentioned in their profile. Their GitHub activity score is 23.1/100, which is relatively"
+  },
+  "CAND_0008425": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0008425 has 7.8 years of experience with production ML experience, specifically in embeddings-based retrieval (Sentence Transformers, BGE) and vector DB/hybrid search (Pinecone, Qdrant) at Ola and Zomato. He also has experience with Learning to Rank, which is a key requirement. However, there is a gap in his experience with evaluation frameworks for ranking (NDCG, MRR, MAP, A/B testing), which is mentioned as a requirement."
+  },
+  "CAND_0004402": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0004402 has 6 years of experience, but lacks direct production experience with embeddings-based retrieval and vector DB/hybrid search. Although they have experience with PyTorch and BentoML, their Redrob assessment scores for these skills are not exceptionally high (PyTorch=85, BentoML=68). They also have a long notice period (60 days) and lack recent GitHub activity, which raises concerns about their 'shipper' mindset and ability to work in a fast-paced production environment."
+  },
+  "CAND_0076251": {
+    "llm_score": 0.8,
+    "reasoning": "Candidate CAND_0076251 has 7.6 years of experience with production experience in embeddings-based retrieval using sentence-transformers and FAISS at Haptik. They also have experience with Weaviate, which is a vector DB/hybrid search. However, their notice period is 60 days, which is longer than the preferred sub-30 days. Additionally, their GitHub activity score is -1/100, indicating that they have not linked their GitHub account."
+  },
+  "CAND_0027801": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0027801 has 7.4 years of experience with real production experience in embeddings-based retrieval (sentence-transformers, BGE) and vector search (FAISS) at Zoho and Uber. He also has experience with product-company background, having worked at InMobi, Zoho, and Uber. However, there is a gap in his experience with evaluation frameworks for ranking (NDCG, MRR, MAP, A/B testing) and his notice period is 120 days, which is longer than the preferred sub-30 days. His GitHub activity score is 63.3"
+  },
+  "CAND_0088025": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0088025 has 8.6 years of experience with real production experience in embeddings-based retrieval (BGE-large) and vector search (Pinecone) at Yellow.ai and Niramai. He also has experience with product-company background, having worked at consumer product companies. However, there is a gap in his notice period, which is 90 days, exceeding the preferred sub-30 days."
+  },
+  "CAND_0002025": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0002025 has 5.9 years of experience with production experience in building a recommendation system at Apple, combining collaborative filtering and fine-tuning LLaMA-2-7B and Mistral-7B variants for domain-specific candidate-JD matching. They also have expertise in embeddings-based retrieval (Sentence Transformers, Weaviate, Pinecone) and vector DB/hybrid search (FAISS, OpenSearch), indicating a strong fit for the role. However, there is a slight gap in their experience with evaluation frame"
+  },
+  "CAND_0060072": {
+    "llm_score": 0.6,
+    "reasoning": "CAND_0060072 has 5.7 years of experience with production experience in building recommendation systems at Amazon and Wysa, combining collaborative filtering and fine-tuning LLMs. However, there is a gap in explicit mention of embeddings-based retrieval and vector DB/hybrid search experience, with only Qdrant mentioned as an advanced skill."
+  },
+  "CAND_0052682": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0052682 has 6.6 years of experience with real production experience in embeddings-based retrieval (sentence-transformers) and vector DB/hybrid search (Pinecone) at Aganitha and Salesforce. He has a 'shipper' mindset with product-company experience, having built a content recommendation system serving 10M+ users and implemented a RAG-based customer support chatbot. However, there's a slight gap in evaluation frameworks for ranking (NDCG, MRR, MAP, A/B testing) as it's not explicitly mentione"
+  },
+  "CAND_0061265": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0061265 has 6.6 years of experience with real production experience in embeddings-based retrieval (sentence-transformers, BGE) and vector search (FAISS) at Zoho. He also has experience with product-company background at Zoho and Observe.AI, indicating a 'shipper' mindset. However, there is a gap in his experience with evaluation frameworks for ranking (NDCG, MRR, MAP, A/B testing) which is mentioned in the job description."
+  },
+  "CAND_0066376": {
+    "llm_score": 0.8,
+    "reasoning": "The candidate has 5.7 years of experience with real production experience in embeddings-based retrieval (sentence-transformers at Dream11 and Salesforce) and vector DB/hybrid search (FAISS at Salesforce). They also have experience with product-company background (Dream11 and Salesforce) and a 'shipper' mindset, shipping working systems fast. However, there is a gap in their notice period, which is 90 days, exceeding the preferred sub-30 days. The candidate's GitHub activity score is -1/100, indi"
+  },
+  "CAND_0030784": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0030784 has 4.4 years of experience, but lacks real production experience with embeddings and vector search. Although they have worked on NLP pipelines and have experience with Pinecone, their experience is mostly in analytics and ML, not specifically in production environments. They also have a long notice period of 90 days, which is a red flag. Their Redrob assessment scores are decent, but not exceptional."
+  },
+  "CAND_0030953": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0030953 has 7.8 years of experience with production experience in embeddings-based retrieval (sentence-transformers, BGE) and vector DB/hybrid search (Pinecone, Weaviate, Qdrant). They have shipped multiple ranking models and have a strong product-company background with experience at Nykaa, Niramai, Vedantu, and Observe.AI. However, there is a gap in their experience with evaluation frameworks for ranking (NDCG, MRR, MAP, A/B testing) as mentioned in the job description."
+  },
+  "CAND_0059017": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0059017 has 6.8 years of experience, but lacks real production experience with embeddings-based retrieval and vector DB/hybrid search. Although they have experience with Sentence Transformers (advanced) and FAISS (advanced), it's unclear if these skills were applied in production. Additionally, their notice period is 90 days, which exceeds the preferred sub-30 days. They also have a relatively low Redrob assessment score for YOLO (44) and a low GitHub activity score (76.2/100)."
+  },
+  "CAND_0055992": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0055992 has 16.9 years of experience, with recent production experience at CRED (16 months) and Aganitha (15 months) using embeddings-based retrieval (Pinecone, OpenAI embeddings, sentence-transformers) and vector DB (FAISS). However, there's a gap in their experience with strong Python code quality, as their key skills don't explicitly mention it. They also have a strong product-company background, having worked at CRED, Aganitha, Observe.AI, and Ola, which aligns with the 'shipper' mindse"
+  },
+  "CAND_0033861": {
+    "llm_score": 0.6,
+    "reasoning": "CAND_0033861 has 8 years of experience in NLP and has worked on production systems, including fine-tuning LLaMA-2-7B and Mistral-7B variants for domain-specific candidate-JD matching at Mad Street Den. However, there is a gap in experience with embeddings-based retrieval and vector DB/hybrid search, as the candidate's work primarily focuses on LLMs and semantic search systems. The candidate's Redrob assessment scores for Reinforcement Learning, Weaviate, and LoRA are also not exceptionally high,"
+  },
+  "CAND_0075249": {
+    "llm_score": 0.85,
+    "reasoning": "CAND_0075249 has 6.2 years of experience with real production experience in embeddings-based retrieval (sentence-transformers at Zomato and upGrad) and vector DB/hybrid search (Pinecone at upGrad). They have a 'shipper' mindset with product-company experience at Zomato and upGrad. However, their notice period is 45 days, which is slightly above the preferred sub-30 days. They have strong behavioral signals with an active GitHub profile and responsive recruiter response rate."
+  },
+  "CAND_0062247": {
+    "llm_score": 0.85,
+    "reasoning": "CAND_0062247 has 7.3 years of experience with production experience in embeddings-based retrieval (sentence-transformers, BGE) and vector search (FAISS) at Google. They also have experience with product-company background, having worked at Google and Dream11, and have a short notice period of 30 days. However, there is a slight gap in their skills, as they are listed as having intermediate skills in OpenCV and Computer Vision, but the job description emphasizes strong Python skills, which is not"
+  },
+  "CAND_0066690": {
+    "llm_score": 0.5,
+    "reasoning": "CAND_0066690 has 4.8 years of experience, but lacks real production experience with embeddings-based retrieval and vector DB/hybrid search. Although they have experience with Hugging Face Transformers and Sentence Transformers, it's not explicitly mentioned that they've deployed these in production. They also have experience with product-company background at Freshworks, but it's not clear if they've shipped working systems fast. Their notice period is 30 days, which is slightly above the prefer"
+  },
+  "CAND_0064904": {
+    "llm_score": 0.5,
+    "reasoning": "CAND_0064904 has 4.9 years of experience and has worked on production ML pipelines at LinkedIn and built a content recommendation system at Freshworks that uses sentence-transformer embeddings for item-item similarity. However, the candidate's notice period is 90 days, which exceeds the preferred sub-30 days. Additionally, the candidate has some experience with LLMs, which is a disqualifier according to the job description."
+  },
+  "CAND_0080766": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0080766 has 8.8 years of experience with production experience in search and discovery infrastructure, including embeddings-based retrieval and vector DB/hybrid search at Aganitha and Swiggy. He has also demonstrated a 'shipper' mindset with a strong product-company background at Salesforce and Swiggy, shipping personalization infrastructure and ranking layers for flagship products."
+  },
+  "CAND_0076163": {
+    "llm_score": 0.7,
+    "reasoning": "CAND_0076163 has 6.9 years of experience with production experience in NLP, specifically with Weaviate (advanced) and Semantic Search (expert) at Ola and Zoho. However, there is a gap in their experience with embeddings-based retrieval and vector DB/hybrid search, as they are not mentioned in their key skills or career history. They have a strong GitHub activity score and responsive recruiter response rate, but their notice period is 60 days, which exceeds the preferred sub-30 days."
+  },
+  "CAND_0074735": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0074735 has 5.5 years of experience with production ML experience, including embeddings-based retrieval (RAG, OpenAI embeddings, Pinecone) and vector DB search (Pinecone). However, the candidate's experience is mostly within a single company (Rephrase.ai) and lacks strong product-company background, which is a preferred requirement."
+  },
+  "CAND_0086151": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0086151 has 7.7 years of experience with real production experience in embeddings-based retrieval (sentence-transformers, BGE) and vector DB / hybrid search (Qdrant, OpenSearch). They have a 'shipper' mindset with product-company experience at Wysa and Glance, and strong behavioral signals with active GitHub activity and a short notice period. However, there is a slight gap in their experience with evaluation frameworks for ranking (NDCG, MRR, MAP, A/B testing), but their Redrob assessment "
+  },
+  "CAND_0093912": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0093912 has 5.3 years of experience with production experience in embeddings-based retrieval (sentence-transformers, BGE) and vector search (FAISS) at Flipkart. They also have experience with product-company background at Razorpay and Flipkart, and a 'shipper' mindset with a short notice period of 30 days."
+  },
+  "CAND_0005649": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0005649 has 7.4 years of experience with production experience in embeddings-based retrieval (sentence-transformers, BGE) and vector DB (FAISS) at Sarvam AI. They also have experience with product-company background at Amazon and Glance, indicating a 'shipper' mindset. However, they have a 90-day notice period, which is longer than preferred. There are no red flags in their profile."
+  },
+  "CAND_0090584": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0090584 has 5.1 years of experience, but lacks direct production experience with embeddings-based retrieval and vector DB/hybrid search. Although they have experience with OpenSearch (72 score) and FAISS (intermediate skill), it's not explicitly stated that they've deployed these technologies to real users. Additionally, their GitHub activity score is high, but their Redrob assessment scores for RAG (67) and CNN (75) are not directly relevant to the required skills."
+  },
+  "CAND_0040887": {
+    "llm_score": 0.7,
+    "reasoning": "CAND_0040887 has production experience with embeddings-based retrieval at Netflix, using sentence-transformers with FAISS. However, the candidate has only 4.7 years of experience, which is below the 5-9 years required for the Senior AI Engineer role. Additionally, the candidate's notice period is 15 days, which is above the preferred sub-30 days."
+  },
+  "CAND_0042100": {
+    "llm_score": 0.6,
+    "reasoning": "The candidate has 7.3 years of experience and has worked on ranking models for e-commerce search products and discovery feeds. However, there is no explicit mention of embeddings-based retrieval or vector DB/hybrid search experience, which are key requirements for the role. The candidate has expertise in Elasticsearch, but it's not clear if they have experience with other vector DBs like Pinecone or Weaviate."
+  },
+  "CAND_0017960": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0017960 has 7.7 years of experience with production experience in recommendation systems, including training and shipping ranking models using XGBoost and LightGBM. However, there is a gap in their experience with embeddings-based retrieval and vector DB/hybrid search, as they only implemented a document ingestion pipeline using OpenAI embeddings and Pinecone in their previous role."
+  },
+  "CAND_0005311": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0005311 has some relevant experience with embeddings and vector search, having worked with Qdrant (intermediate) and Semantic Search (intermediate). However, there is no clear indication of production experience with embeddings-based retrieval or vector DB/hybrid search. Additionally, the candidate's background is more focused on research and analytics rather than product-company experience, and the notice period is 30 days, which is slightly longer than preferred."
+  },
+  "CAND_0082086": {
+    "llm_score": 0.6,
+    "reasoning": "CAND_0082086 has 6 years of experience with production experience in computer vision and NLP pipelines. However, there is a gap in embeddings-based retrieval and vector DB/hybrid search experience, as the candidate's skills are mostly focused on PyTorch, FAISS, and Pinecone, but the Redrob assessment scores for these skills are not high (46, 63, 66 respectively)."
+  },
+  "CAND_0051004": {
+    "llm_score": 0.6,
+    "reasoning": "CAND_0051004 has 4.7 years of experience with production experience in embeddings-based retrieval and vector DB/hybrid search, specifically with Pinecone, as seen in their work at CRED and Niramai. They have a strong score in Qdrant (expert) and Embeddings (advanced) skills, indicating a good fit for the role. However, their notice period is 15 days, which is slightly above the preferred sub-30 days, and their GitHub activity score is relatively low (30.8/100)."
+  },
+  "CAND_0020708": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0020708 has 4.2 years of experience and has worked on a semantic search feature using sentence-transformers and FAISS at PolicyBazaar. However, the candidate's experience is slightly short of the required 5-9 years, and there's a gap in their experience with vector DB/hybrid search (Pinecone, Weaviate, Qdrant)."
+  },
+  "CAND_0036184": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0036184 has 6 years of experience with real production experience in embeddings-based retrieval and vector search, specifically using sentence-transformers and FAISS at CRED and PolicyBazaar. He also has a strong product-company background, having worked at CRED and PolicyBazaar, and has a 'shipper' mindset with a short notice period of 30 days."
+  },
+  "CAND_0062413": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0062413 has 6.6 years of experience, but lacks direct production experience with embeddings-based retrieval and vector DB/hybrid search. Although they have experience with OpenSearch (score 42) and Pinecone (intermediate), it's not clear if they've deployed these technologies to real users. They also have a product-company background, having worked at upGrad and Verloop.io, but their notice period is 60 days, which is longer than preferred."
+  },
+  "CAND_0007009": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0007009 has 7.9 years of experience with production experience in embeddings-based retrieval (sentence-transformers, BGE) and vector DB (Pinecone) at Netflix, and also at Wysa. He has a strong product-company background with experience at Netflix and Wysa, and has a 'shipper' mindset with a short notice period of 30 days."
+  },
+  "CAND_0010541": {
+    "llm_score": 0.6,
+    "reasoning": "CAND_0010541 has 6.2 years of experience and has worked on production ML feature engineering and model deployment at Wysa, which includes embeddings-based retrieval (Pinecone and Weaviate) and vector search. However, the candidate's GitHub activity score is low (18.2/100), and the Redrob assessment scores for Pinecone and Computer Vision are not exceptional (44 and 46 respectively). Additionally, the candidate's notice period is 60 days, which is longer than the preferred sub-30 days."
+  },
+  "CAND_0092706": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0092706 has 5.8 years of experience, but lacks direct production experience with embeddings-based retrieval and vector DB/hybrid search. Although they have experience with Sentence Transformers (advanced) and Weights & Biases (advanced), their Redrob assessment scores for these skills are 41 and 60 respectively. They also have a long notice period of 120 days, which is a red flag. Their GitHub activity score is 65.1/100 and they have been active recently, but their career history and skills"
+  },
+  "CAND_0057563": {
+    "llm_score": 0.8,
+    "reasoning": "Candidate CAND_0057563 has 6.8 years of experience with production experience in embeddings-based retrieval (sentence-transformers, BGE) and vector DB/hybrid search (FAISS) at Yellow.ai and Zoho. They also have a 'shipper' mindset with product-company experience at Locobuzz, Yellow.ai, and Zoho. However, there is a slight gap in their notice period, which is 60 days, exceeding the preferred sub-30 days. Additionally, their GitHub activity score is relatively low (22.8/100)."
+  },
+  "CAND_0037000": {
+    "llm_score": 0.4,
+    "reasoning": "CAND_0037000 has some production experience with embeddings and vector search, having implemented a document ingestion pipeline using OpenAI embeddings and Pinecone at Unacademy. However, the experience is relatively limited (2.7 years) and lacks depth in specific areas like embeddings-based retrieval and vector DB/hybrid search, as per the job requirements. The candidate also has experience with product companies, having worked at Unacademy and CRED, but the notice period is slightly longer tha"
+  },
+  "CAND_0010257": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0010257 has 6.5 years of experience with real production experience in embeddings-based retrieval (sentence-transformers) and vector DB/hybrid search (Qdrant, OpenSearch) at Google and PharmEasy. They have a 'shipper' mindset with product-company experience, having shipped multiple ranking models and built production ML pipelines."
+  },
+  "CAND_0030468": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0030468 has 5.4 years of experience with production experience in search and discovery infrastructure, including leading teams at Swiggy and CRED, where they shipped personalization infrastructure and designed offline experimentation environments. They also have strong skills in embeddings, vector search, and ranking systems, with high scores in Redrob assessment (RAG=80, Semantic Search=72, Sentence Transformers=97). However, their notice period is 45 days, which is slightly above the pref"
+  },
+  "CAND_0036437": {
+    "llm_score": 0.42,
+    "reasoning": "CAND_0036437 has 4.8 years of experience, but only 21 months of experience as a Search Engineer at Rephrase.ai, where they owned the ranking layer for an e-commerce search product and evolved it from a hand-tuned scoring function to a learning-to-rank model. They also have experience with OpenSearch, Elasticsearch, and Vector Search, but lack experience with embeddings-based retrieval, and their notice period is 30 days, which is slightly above the preferred sub-30 days."
+  },
+  "CAND_0079064": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0079064 has 5.2 years of experience with production experience in embeddings-based retrieval (sentence-transformers, BGE) and vector DB / hybrid search (FAISS, Pinecone) at Niramai. He also has experience with product-company background, having worked at Razorpay and Niramai. However, there is a gap in his experience with evaluation frameworks for ranking (NDCG, MRR, MAP, A/B testing) and his GitHub activity score is relatively low (26.8/100)."
+  },
+  "CAND_0035653": {
+    "llm_score": 0.2,
+    "reasoning": "CAND_0035653 has 5.6 years of experience but lacks real production experience with embeddings and vector search. Although they have experience with OpenSearch and Vector Search, it's not explicitly mentioned that they've deployed these technologies to real users. They also have a product-company background, having worked at Swiggy, but their notice period is 60 days, which is longer than preferred."
+  },
+  "CAND_0012957": {
+    "llm_score": 0.6,
+    "reasoning": "The candidate has production experience with embeddings-based retrieval (sentence-transformers) at Mad Street Den, serving 10M+ users. However, the candidate's notice period is 120 days, which is longer than the preferred sub-30 days. Additionally, the candidate's GitHub activity score is 53.5/100, indicating some level of inactivity."
+  },
+  "CAND_0018549": {
+    "llm_score": 0.8,
+    "reasoning": "CAND_0018549 has 6.8 years of experience with production experience in embeddings-based retrieval (sentence-transformers) and vector DB / hybrid search (Weaviate, Qdrant) at Flipkart. He also has experience with product-company background at Uber and Flipkart, and has a 'shipper' mindset with a strong GitHub activity score and responsive recruiter response rate."
+  },
+  "CAND_0089552": {
+    "llm_score": 0.7,
+    "reasoning": "Candidate CAND_0089552 has 6 years of experience with production experience in embeddings-based retrieval (sentence-transformers, BGE) and vector DB / hybrid search (Pinecone). They have a 'Shipper' mindset with experience in building intelligent products at Netflix and Mad Street Den. However, there is a gap in their notice period (120 days), which is longer than the preferred sub-30 days. Additionally, their GitHub activity score is relatively low (38.4/100)."
+  }
+}
